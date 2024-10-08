@@ -1,0 +1,936 @@
+.ober{
+    display: flex;
+    //width: 99.9%;
+   //display: none;
+
+  
+   
+}
+
+.hero{
+    position: absolute;
+    width: 1344px;
+    height: 646px;
+    top: 297px;
+    left: 200px;
+   
+
+    //border: 2px solid rgba(255, 255, 255, 1);
+    
+}
+
+
+.iam-frontend{
+   
+    width: 718px;
+    height: 172px;
+    margin-left: 622px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    //background-color: rgb(29,39,59);
+    
+    
+    //border: 2px solid rgba(255, 255, 255, 1);
+  
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+    font-size: 32px;
+}
+
+p{
+    color: white;
+    font-size: 32px;
+}
+.iam {
+   
+    transform: rotate(-90deg); /* Drehung um 90 Grad */
+    height: 63px;
+    font-weight: 400;
+    font-size: 64px;
+    width: 152px;
+    line-height: 76.8px;
+    margin-top: 48px;
+    //border: 2px solid rgba(255, 255, 255, 1);
+  
+}
+.frontend{
+   // font-family: Poppins;
+   
+    font-weight: 400;
+    height: 70px;
+    font-size: 44px;
+    line-height: 69.6px;
+    color: rgba(151, 71, 255, 1) ;
+    line-height: 69.6px;
+    margin-top: -48px;
+    //border: 2px solid rgba(255, 255, 255, 1);
+}
+.name-beruf{
+    margin-left: -24px;
+    height: 172px;
+    
+}
+
+.name{
+   
+    height: 108px;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 108px;
+}
+
+.btn-talk{
+    width: 165px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    gap: 10px;
+    position: absolute;
+    color: white;
+    margin-top: -24px;
+ 
+    background: rgba(112, 230, 28, 1);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+    &:hover{
+        
+        background: rgba(151, 71, 255, 1);
+        scale: 1.1;
+        cursor: pointer;
+
+    }
+
+}
+
+
+.p-pic{
+    margin-left: 360px;
+    margin-top: 50px; 
+}
+
+.references{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 566px;
+    height: 40px;
+    top: 903px;
+    color: white;
+    //border: 2px solid rgba(255, 255, 255, 1);
+   
+    .references-line{
+        position: absolute;
+        top: 0px;
+        display: flex;
+        margin-top: 40px;
+
+        gap: 32px;
+      
+        
+        >img{
+            width: 30px;
+            height: 30px;
+            &:hover{
+                scale: 1.2;
+            }
+        }
+    }
+
+    .line{
+        margin-top: 12px;
+        width: 100px;
+        height: 0px;
+        border-style: solid;
+        color: rgba(151, 71, 255, 1);
+    }
+
+    .mail{
+        font-family: Poppins;
+        font-weight: 400;
+        //font-size: 20px;
+        font-size: 20px;
+        line-height: 27.6px;
+        color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+    
+    }
+    .scroll-down{
+        position: absolute;
+        left: 1344px;
+        width: 133px;
+        height: 28px;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27.6px;
+        color: rgba(255, 255, 255, 1);
+        transform: rotate(90deg); 
+        margin-top: -160px;
+        //background-color: rgba(255, 255, 255, 1);
+       
+      
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+/* ------------------------------responsive */
+@media (max-width: 1669px) {
+    .ober{
+
+        .hero{
+            position: absolute;
+            width: 1344px;
+            height: 646px;
+            top: 297px;
+            left: 0px;
+           
+           
+            //display: flex;
+            //background-color: rgba(255, 255, 255, 1);
+            //border: 2px solid rgba(255, 255, 255, 1);
+            
+        }
+        .p-pic{
+         margin-left: 260px;
+         margin-top: 20px;
+        } 
+    }
+    .references{
+
+        .scroll-down{
+            left: 1044px;
+        }
+    }
+}
+
+@media (max-width: 1438px) {
+    .references{
+
+        .scroll-down{
+            left: 1044px;
+        }
+    }
+}
+@media (max-width: 1350px) {
+
+   
+    .ober{
+
+        .hero{
+            width: 1300px
+          
+        }
+        .iam-frontend{
+            width: 658px;
+        }
+        .references{
+
+            .scroll-down{
+                left: 844px;
+            }
+        }
+    }
+} 
+@media (max-width: 1304px) {
+    .ober{
+
+
+        .hero{
+            width: 950px;
+           
+          
+        }
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 40px;
+               
+            }
+           
+
+           }
+        }
+       
+    }
+} 
+
+@media (max-width: 1060px) {
+
+
+    .references{
+        top: 1059px;
+        top: 980px;
+        top: 778px;
+       
+     
+
+        .scroll-down{
+            display: none;
+        }
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 410.61px;
+                height: 448.11px;
+                top: -24px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 260px;
+               // background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
+            
+
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+           
+            top: 579px;
+            //left: -600px;
+            left: -470px;
+           
+
+        }
+       
+    }
+}
+@media (max-width: 980px) {
+
+
+    .references{
+        top: 1059px;
+        top: 980px;
+        top: 778px;
+       
+     
+
+        .scroll-down{
+            display: none;
+        }
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 410.61px;
+                height: 448.11px;
+                top: -24px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 260px;
+               // background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
+            
+
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+           
+            top: 579px;
+            //left: -600px;
+            left: -470px;
+           
+
+        }
+       
+    }
+}
+
+@media (max-width: 730px) {
+
+
+    .references{
+        top: 980px;
+        top: 778px;
+       
+
+        .scroll-down{
+            display: none;
+        }
+    }
+    .ober{
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 0px;
+               
+            }
+           
+
+           }
+        }
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 410.61px;
+                height: 448.11px;
+                top: -24px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 270px;
+               // background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
+            
+
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+           
+            top: 579px;
+            //left: -600px;
+            left: -532px;
+           
+
+        }
+      
+       
+    }
+}
+@media (max-width: 570px) {
+
+
+    .references{
+        width: 566px;
+        width: 420px;
+        top: 778px;
+
+        .references-line{
+            gap: 24px;
+        }
+       
+
+      
+    }
+    .ober{
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 0px;
+               
+            }
+           
+
+           }
+        }
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 390.61px;
+                height: 448.11px;
+                top: -24px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 300px;
+               // background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
+            
+
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+           
+            top: 579px;
+            left: -580px;
+           
+
+        }
+      
+       
+    }
+}
+@media (max-width: 490px) {
+
+
+    .references{
+        width: 300px;
+        top: 778px;
+
+        .references-line{
+            gap: 24px;
+            margin-left: -20px;
+        }
+        .mail{
+            display: none;
+        }
+       
+
+      
+    }
+    .ober{
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 0px;
+               
+            }
+           
+
+           }
+        }
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 370.61px;
+                height: 448.11px;
+                top: -24px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 360px;
+               // background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
+            
+
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+           
+            top: 579px;
+            left: -670px;
+           
+
+        }
+      
+       
+    }
+}
+@media (max-width: 400px) {
+
+
+    .references{
+        width: 300px;
+        top: 778px;
+
+        .references-line{
+            gap: 24px;
+            margin-left: -20px;
+        }
+        .mail{
+            display: none;
+        }
+       
+
+      
+    }
+    .ober{
+      /*   background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png'); */
+    
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 0px;
+               
+            }
+           
+
+           }
+        }
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 360.61px;
+                height: 448.11px;
+                top: -24px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 380px;
+                //display: none;
+              
+            
+
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+           
+            top: 579px;
+            left: -680px;
+           
+           
+
+        }
+      
+       
+    }
+}
+@media (max-width: 388px) {
+
+
+    .references{
+        width: 300px;
+        top: 778px;
+
+        .references-line{
+            gap: 24px;
+            margin-left: -20px;
+        }
+        .mail{
+            display: none;
+        }
+       
+
+      
+    }
+    .ober{
+      /*   background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png'); */
+    
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 0px;
+               
+            }
+           
+
+           }
+        }
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 340.61px;
+                height: 448.11px;
+                top: -24px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 380px;
+                //display: none;
+              
+            
+
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+           
+            top: 579px;
+            left: -680px;
+           
+           
+
+        }
+      
+       
+    }
+}
+@media (max-width: 380px) {
+
+
+    .references{
+        width: 300px;
+        top: 778px;
+
+        .references-line{
+            gap: 24px;
+            margin-left: -20px;
+        }
+        .mail{
+            display: none;
+        }
+       
+
+      
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 320.34px;
+               
+                height: 448.11px;
+               
+                left: -0.02px;
+               
+                margin-left: 4px;
+                margin-left: 430px;
+            
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 305px;
+            height: 239px;
+            //top: 979px;
+            top: 579px;
+            //left: -600px;
+            left: -690px;
+            padding-left: 2px;
+            .iam-frontend{
+                width: 390px;
+
+                .name-beruf{
+                    .frontend{
+                    font-size: 23px;
+                    }
+                }
+            }
+           
+
+        }
+       
+    }
+}
+@media (max-width: 350px) {
+
+
+    .references{
+        width: 300px;
+        top: 778px;
+
+        .references-line{
+            gap: 24px;
+            margin-left: -20px;
+        }
+        .mail{
+            display: none;
+        }
+       
+
+      
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 280.34px;
+               
+                height: 448.11px;
+               
+                left: -0.02px;
+               
+                margin-left: 4px;
+                margin-left: 460px;
+            
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 305px;
+            height: 239px;
+            //top: 979px;
+            top: 579px;
+            //left: -600px;
+            left: -690px;
+            padding-left: 2px;
+
+            .iam-frontend{
+                width: 350px;
+
+                .name-beruf{
+                    .frontend{
+                    font-size: 20px;
+                    }
+                }
+            }
+           
+
+        }
+       
+    }
+}
+
+
+
+
+
+
+
