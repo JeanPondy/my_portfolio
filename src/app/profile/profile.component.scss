@@ -1,124 +1,136 @@
-.ober{
+.profile{
     display: flex;
     //width: 99.9%;
    //display: none;
 
-  
-   
-}
-
-.hero{
+   .profile-pic {
     position: absolute;
-    width: 1344px;
-    height: 646px;
-    top: 297px;
-    left: 200px;
+    top: 181.62px;
+    width: 990.7px;
+    height: 671.38px;
+    left: -120px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    background-image: url('./../../../public/assets/img/shadows.png');
+    background-position: right 100px top 20px; 
+    background-repeat: no-repeat;
+    object-fit: none;
+
    
-
-    //border: 2px solid rgba(255, 255, 255, 1);
-    
-}
-
-
-.iam-frontend{
-   
-    width: 718px;
-    height: 172px;
-    margin-left: 622px;
-    gap: 16px;
-    display: flex;
-    justify-content: center;
-    align-items:start;
-    //background-color: rgb(29,39,59);
-    
-    
-    //border: 2px solid rgba(255, 255, 255, 1);
-  
-}
-
-h1{
-    color: white;
-}
-h2{
-    color: white;
-    font-size: 32px;
-}
-
-p{
-    color: white;
-    font-size: 32px;
-}
-.iam {
-   
-    transform: rotate(-90deg); /* Drehung um 90 Grad */
-    height: 63px;
-    font-weight: 400;
-    font-size: 64px;
-    width: 152px;
-    line-height: 76.8px;
-    margin-top: 48px;
-    //border: 2px solid rgba(255, 255, 255, 1);
-  
-}
-.frontend{
-   // font-family: Poppins;
-   
-    font-weight: 400;
-    height: 70px;
-    font-size: 44px;
-    line-height: 69.6px;
-    color: rgba(151, 71, 255, 1) ;
-    line-height: 69.6px;
-    margin-top: -48px;
-    //border: 2px solid rgba(255, 255, 255, 1);
-}
-.name-beruf{
-    margin-left: -24px;
-    height: 172px;
-    
-}
-
-.name{
-   
-    height: 108px;
-    font-weight: 700;
-    font-size: 90px;
-    line-height: 108px;
-}
-
-.btn-talk{
-    width: 165px;
-    height: 58px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 160px;
-    border-radius: 10px;
-    padding: 15px 30px 15px 30px;
-    gap: 10px;
-    position: absolute;
-    color: white;
-    margin-top: -24px;
- 
-    background: rgba(112, 230, 28, 1);
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-
-    &:hover{
-        
-        background: rgba(151, 71, 255, 1);
-        scale: 1.1;
-        cursor: pointer;
+      .p-pic{
+        position: absolute;
+        width: 646px;
+        height: 705px;
+        width: 520px; /* Verkleinerte Breite */
+        height: 670px; /* Verkleinerte Höhe */
+        top: 0px;
+        left: 140px;
+        left: 220px;
+        gap: 0px;
+        opacity: 0px;
+      
+        border: 2px solid rgba(255, 255, 255, 1);
 
     }
 
+  }
+  .hero{
+    position: absolute;
+    
+    width: 1344px;
+    height: 646px;
+    top: 297px;
+  
+    border: 2px solid rgba(255, 255, 255, 1);
+
+    .iam-frontend{
+        position: absolute;
+        width: 718px;
+        height: 172px;
+        //top: 297px;
+        left: 622px;
+        gap: 35px;
+        opacity: 0px;
+        border: 2px solid rgba(255, 255, 255, 1);
+      
+
+        .iam {
+            width: 152px;
+            height: 63px;
+            transform: rotate(-90deg); /* Drehung um 90 Grad */
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 76.8px;
+            //margin-top: 48px;
+            color: rgba(255, 255, 255, 1);
+            margin-left: 0px;
+           margin-top: 48px;
+            border: 2px solid rgba(255, 255, 255, 1);
+          
+        }
+        .name-beruf{
+           
+            height: 172px;
+            margin-left: 120px;
+            margin-top: -154px;
+            border: 2px solid rgba(255, 255, 255, 1);
+            text-align: end;
+
+            .name{
+                width: 490px;
+                height: 108px;
+                font-weight: 700;
+                font-size: 90px;
+                line-height: 108px;
+                color: rgba(255, 255, 255, 1);
+                border: 2px solid rgba(255, 255, 255, 1);
+              
+            }
+            .frontend{
+                // font-family: Poppins;
+                width: 490px;
+                 font-weight: 400;
+                 height: 70px;
+                 font-size: 44px;
+                 line-height: 69.6px;
+                 color: rgba(151, 71, 255, 1) ;
+                 line-height: 69.6px;
+                 margin-top: -48px;
+                 border: 2px solid  rgba(151, 71, 255, 1);
+             }
+             .btn-talk{
+                width: 165px;
+                height: 58px;
+                justify-content: center;
+                align-items: center;
+                margin-left: -400px;
+               
+                border-radius: 10px;
+                padding: 15px 30px 15px 30px;
+                gap: 10px;
+                position: absolute;
+                color: white;
+                margin-top: -24px;
+             
+                background: rgba(112, 230, 28, 1);
+                box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                cursor: pointer;
+            
+                &:hover{
+                    
+                    background: rgba(151, 71, 255, 1);
+                    scale: 1.1;
+                    cursor: pointer;
+            
+                }
+            
+            }
+            
+        }
+      
+    }
+    
 }
-
-
-.p-pic{
-    margin-left: 360px;
-    margin-top: 50px; 
-}
-
 .references{
     display: flex;
     justify-content: center;
@@ -127,14 +139,15 @@ p{
     width: 566px;
     height: 40px;
     top: 903px;
-    color: white;
-    //border: 2px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+   
+    border: 2px solid rgba(255, 255, 255, 1);
    
     .references-line{
         position: absolute;
         top: 0px;
         display: flex;
-        margin-top: 40px;
+       
 
         gap: 32px;
       
@@ -168,7 +181,8 @@ p{
     }
     .scroll-down{
         position: absolute;
-        left: 1344px;
+        left: 1316px;
+        left: 1246px;
         width: 133px;
         height: 28px;
         font-family: Poppins;
@@ -188,8 +202,31 @@ p{
     }
 }
 
+  
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------responsive */
-@media (max-width: 1669px) {
+/* @media (max-width: 1669px) {
     .ober{
 
         .hero{
@@ -216,7 +253,7 @@ p{
             left: 1044px;
         }
     }
-}
+} */
 
 @media (max-width: 1438px) {
     .references{

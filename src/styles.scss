@@ -1,15 +1,40 @@
-body { 
+body {
   margin: 0;
   background: rgba(20, 29, 47, 1);
-  height: 6083.17px;
-  //border: 2px solid yellow;
+  min-height: 100vh;
+  background-image: url('./../public/assets/img/shapeheropage.png');
+  background-repeat: no-repeat;
+  background-position: right 0px top 360px;
+  
+}
+
+.content-wrapper {
+  max-width: 1440px;
+  height: 6123px;
+ 
+
+  margin: 0 auto;
+  position: relative;
+  background-image: url('./../public/assets/img/shadows1.png');
+  background-repeat: no-repeat;
+  background-position: right 0px top 1000px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  //overflow-x: hidden;
+  overflow-y: hidden;
 
 
+} 
+
+
+
+
+
+/* ----------------------------------------------------------------------------------- */
 
 .big-bg {
   //margin-top: 388px;
   margin-top: 390px;
-  background-image: url("./../public/assets/img/background-shapes.png");
+  //background-image: url("./../public/assets/img/background-shapes.png");
   background-repeat: no-repeat;
   width: 2550.73px;
   height: 5710.77px;
@@ -28,28 +53,12 @@ body {
 
 }
 
-.profile-pic {
-  position: absolute;
-  top: 181.62px;
-  width: 990.7px;
-  height: 671.38px;
-  left: -120px;
-  background-image: url('./../public/assets/img/photo-shadows.png'), url('./../public/assets/img/green-shadow.png');
-  background-position: center, right 50px center; 
-  background-repeat: no-repeat, no-repeat;
-  object-fit: none;
-  //border: 2px solid rgba(255, 255, 255, 1);
-}
 
 
 
 
-.profile-pic > img {
-  width: 646px;
-  height: 705px;
- 
-  //background-color: rgba(255, 255, 255, 1);
-}
+
+
 .profile-pic2 {
   position: absolute;
   top: 221.62px;
@@ -65,8 +74,12 @@ body {
 
 
 
+
 /*--------------------------------responsive */
-@media (max-width: 1669px) {
+
+/*--------------------------------responsive */
+
+/* @media (max-width: 1669px) {
   body{
     height: 6083.17px;
   }
@@ -84,7 +97,6 @@ body {
     }
   }
  
-
 }
 @media (max-width: 1480px) {
   body{
@@ -108,6 +120,8 @@ body {
     height: 705px;
   }
 }
+ */
+
 @media (max-width: 1365px) {
   .ober{
     .big-bg {
@@ -196,8 +210,6 @@ body {
      }
   }
 }
-
-
 @media (max-width: 730px){
   .big-bg2 {
     margin-top: 1259px;
@@ -394,7 +406,6 @@ body {
  
 }
 
-}
 
 
 

@@ -16,6 +16,6 @@ import { ContactComponent } from './contact/contact.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'portfoliojp';
+  title = 'jeanpondy';
   
 }
