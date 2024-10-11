@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   background: rgba(20, 29, 47, 1);
   min-height: 100vh;
@@ -18,12 +18,40 @@ body {
   background-image: url('./../public/assets/img/shadows1.png');
   background-repeat: no-repeat;
   background-position: right 0px top 1000px;
-  border: 2px solid rgba(255, 255, 255, 1);
-  //overflow-x: hidden;
+  //border: 2px solid rgba(255, 255, 255, 1);
+  overflow-x: hidden;
   overflow-y: hidden;
 
 
-} 
+}  */
+
+body {
+  max-width: 1440px; /* Maximale Breite des Inhalts */
+  margin: 0 auto; /* Zentriert die Seite horizontal */
+  background-color: rgba(20, 29, 47, 1); /* Hintergrundfarbe */
+  min-height: 100vh; /* Die Seite muss mindestens die Höhe des Bildschirms haben */
+  background-image: url('./../public/assets/img/shapeheropage.png');
+  background-repeat: no-repeat;
+  background-position: center top 360px; /* Position des Hintergrundbildes */
+  overflow-x: hidden; /* Verhindert horizontales Scrollen */
+  border: 1px solid rgb(238, 12, 246);
+}
+
+.content-wrapper {
+  width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+  max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+  height: 6123px; /* Höhe des Inhalts */
+  //height: 6414px; /* Höhe des Inhalts */
+  margin: 0 auto; /* Zentriert die Wrapper horizontal */
+  position: relative; /* Ermöglicht die Positionierung von Inhalten relativ zu diesem Wrapper */
+  background-image: url('./../public/assets/img/shadows1.png');
+  background-repeat: no-repeat;
+  background-position: right 0px top 1000px; /* Position des Hintergrundbildes */
+  overflow-x: hidden; /* Verhindert horizontales Scrollen */
+  overflow-y: hidden; /* Verhindert vertikales Scrollen */
+  //border: 8px solid yellow;
+}
+
 
 
 
@@ -42,7 +70,7 @@ body {
 }
 .big-bg2{
   margin-top: 859px;
-  background-image: url("./../public/assets/img/shadows1.png");
+  //background-image: url("./../public/assets/img/shadows1.png");
   background-repeat: no-repeat; /* Sicherstellen, dass das Bild nicht wiederholt wird */
   width: 1205.31px; /* Breite anpassen */
   height: 7467px; /* Höhe automatisch anpassen */
@@ -59,18 +87,6 @@ body {
 
 
 
-.profile-pic2 {
-  position: absolute;
-  top: 221.62px;
-  width: auto;
-  height: 671.38px;
-  left: 12px;
-  background-image: url('./../public/assets/img/purple-shadow.png'), url('./../public/assets/img/green-shadow.png');
-  background-position: center, right 50px center; 
-  background-repeat: no-repeat, no-repeat;
-  object-fit: none;
-  //background-color: rgba(255, 255, 255, 1);
-}
 
 
 
@@ -123,6 +139,34 @@ body {
  */
 
 @media (max-width: 1365px) {
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 6121px; 
+    
+  }
+
+  .ober{
+    .big-bg {
+      //margin-top: 488px;
+      margin-top:488px;
+     // background-image: url("./../public/assets/img/background-shapes.png");
+      background-repeat: no-repeat;
+      width: 2550.73px;
+      height: 5710.77px;
+      background-size: 100%; /* Bild um 150% vergrößern */
+    }
+  }
+} 
+@media (max-width: 1350px) {
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 6221px; 
+  
+    
+  }
+
   .ober{
     .big-bg {
       //margin-top: 488px;
@@ -137,6 +181,15 @@ body {
 } 
 
 @media (max-width: 1240px) {
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 6224px; 
+  
+  }
+
+
+
   .ober{
     .big-bg {
       margin-top: 390px;
@@ -145,6 +198,13 @@ body {
   }
 } 
 @media (max-width: 1090px) {
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 6224px; 
+  
+  }
+
   .ober{
     .big-bg {
       margin-top: 390px;
@@ -157,6 +217,12 @@ body {
   body{
     //height: 7457px;
     height: 6700px;
+    .content-wrapper {
+      width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+      max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+      height: 6400px; 
+     
+    }
   }
   .ober{
     .big-bg {
@@ -178,6 +244,14 @@ body {
   }
 } 
 @media (max-width: 1010px) {
+
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 6400px; 
+  
+  }
+
   .ober{
     .big-bg {
       margin-top: 390px;
@@ -187,6 +261,12 @@ body {
   }
 } 
 @media (max-width: 940px) {
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 7293px; 
+   
+  }
   .ober{
     .big-bg {
       margin-top: 390px;
@@ -196,6 +276,14 @@ body {
   }
 } 
 @media (max-width: 880px) {
+
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 7293px; 
+   
+  }
+  
   .ober{
     .big-bg {
       margin-top: 390px;
@@ -211,6 +299,14 @@ body {
   }
 }
 @media (max-width: 730px){
+
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 7293px; 
+
+  }
+  
   .big-bg2 {
     margin-top: 1259px;
    
@@ -235,6 +331,15 @@ body {
  
 }
 @media (max-width: 570px){
+
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 7192px; 
+  
+  }
+  
+
   .big-bg2 {
     margin-top: 1259px;
    
@@ -259,6 +364,13 @@ body {
  
 }
 @media (max-width: 490px){
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 7192px; 
+   
+  }
+
   .big-bg2 {
     margin-top: 1259px;
    
@@ -283,6 +395,14 @@ body {
  
 }
 @media (max-width: 400px){
+  .content-wrapper {
+    width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+    max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+    height: 7196px; 
+  
+  }
+
+  
   .big-bg2 {
     margin-top: 1259px;
    
@@ -305,14 +425,18 @@ body {
 }
  
 }
-
 @media (max-width: 388px){
   body { 
-  
-  
-   
     height: 7765px;
     height: 7850px;
+
+    .content-wrapper {
+      width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+      max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+      height: 7550px; 
+     
+    }
+
   
   
   }
@@ -341,11 +465,17 @@ body {
 }
 @media (max-width: 375px){
   body { 
-  
-  
-   
     height: 7765px;
     height: 7850px;
+   
+
+    .content-wrapper {
+      width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+      max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+      height: 7550px; 
+      
+    }
+
   
   
   }
@@ -379,6 +509,12 @@ body {
    
     height: 7765px;
     height: 7850px;
+
+    .content-wrapper {
+      width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
+      max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
+      height: 7800px; /* Höhe des Inhalts */
+    }
   
   
   }

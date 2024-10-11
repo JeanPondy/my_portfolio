@@ -46,8 +46,8 @@ padding: 37px 100px;
     width: 114px;
     height: 32px;
     color: white;
-    background-color: rgba(20, 29, 47, 1);
-    //border: none;
+    background-color: transparent;
+    border: none;
     cursor: pointer;
     font-family: Poppins;
     font-size: 23px;
@@ -55,10 +55,10 @@ padding: 37px 100px;
     line-height: 27.6px;
     margin-right: 16px;
    
-    &:hover{
+     &:hover{
         color: rgba(112, 230, 28, 1);
-        background: rgb(179, 149, 220);
-    }
+        
+    } 
 }
 }
 .burger-menu {
