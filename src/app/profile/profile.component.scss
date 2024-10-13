@@ -6,12 +6,14 @@
    .profile-pic {
     position: absolute;
     top: 181.62px;
-    width: 990.7px;
+    width: 690.7px;
     height: 671.38px;
-    left: -120px;
+    //width: 1420.7px;
+    height: 605.38px;
+    left: -40px;
    
     background-image: url('./../../../public/assets/img/shadows.png');
-    background-position: right 100px top 20px; 
+    background-position: right -0px top 0px; 
     background-repeat: no-repeat;
     object-fit: none;
     //border: 2px solid rgba(255, 255, 255, 1);
@@ -22,10 +24,10 @@
         width: 646px;
         height: 705px;
         width: 520px; /* Verkleinerte Breite */
-        height: 670px; /* Verkleinerte Höhe */
-        top: 1px;
+        height: 600px; /* Verkleinerte Höhe */
+        top: 5px;
         left: 140px;
-        left: 220px;
+        left: 47px;
         gap: 0px;
         opacity: 0px;
       
@@ -41,7 +43,7 @@
     height: 646px;
     top: 297px;
   
-    //border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
 
     //border: 2px solid rgb(231, 206, 12);
     //display: none;
