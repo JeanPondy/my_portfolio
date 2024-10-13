@@ -6,17 +6,18 @@
    .profile-pic {
     position: absolute;
     top: 181.62px;
-    width: 690.7px;
+    width: 660.7px;
     height: 671.38px;
     //width: 1420.7px;
     height: 605.38px;
-    left: -40px;
+    left: 0px;
    
     background-image: url('./../../../public/assets/img/shadows.png');
-    background-position: right -0px top 0px; 
+    background-position: center top 0px; 
     background-repeat: no-repeat;
     object-fit: none;
-    //border: 2px solid rgba(255, 255, 255, 1);
+    background-size: 100%; 
+  // border: 2px solid rgba(255, 255, 255, 1);
 
    
       .p-pic{
@@ -30,6 +31,7 @@
         left: 47px;
         gap: 0px;
         opacity: 0px;
+        //display: none;
       
         //border: 2px solid rgba(255, 255, 255, 1);
 
@@ -43,7 +45,7 @@
     height: 646px;
     top: 297px;
   
-    border: 2px solid rgba(255, 255, 255, 1);
+    //border: 2px solid rgba(255, 255, 255, 1);
 
     //border: 2px solid rgb(231, 206, 12);
     //display: none;
@@ -70,7 +72,7 @@
             line-height: 76.8px;
             //margin-top: 48px;
             color: rgba(255, 255, 255, 1);
-            margin-left: 0px;
+            margin-left: -48px;
            margin-top: 48px;
            margin-bottom: 44px;
             //border: 2px solid rgba(255, 255, 255, 1);
@@ -81,7 +83,7 @@
         .name-beruf{
            
             height: 172px;
-            margin-left: 120px;
+            margin-left: 72px;
             margin-top: -154px;
             //border: 2px solid rgba(255, 255, 255, 1);
             text-align: end;
@@ -112,9 +114,8 @@
              .btn-talk{
                 width: 165px;
                 height: 58px;
-                justify-content: center;
-                align-items: center;
-                margin-left: -400px;
+               
+                margin-left: -480px;
                
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
@@ -152,7 +153,7 @@
     top: 903px;
     color: rgba(255, 255, 255, 1);
    
-    //border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
    
     .references-line{
         position: absolute;
@@ -226,35 +227,6 @@
 
 
 /* ------------------------------responsive */
-/* @media (max-width: 1669px) {
-    .ober{
-
-        .hero{
-            position: absolute;
-            width: 1344px;
-            height: 646px;
-            top: 297px;
-            left: 0px;
-           
-           
-            //display: flex;
-            //background-color: rgba(255, 255, 255, 1);
-            //border: 2px solid rgba(255, 255, 255, 1);
-            
-        }
-        .p-pic{
-         margin-left: 260px;
-         margin-top: 20px;
-        } 
-    }
-    .references{
-
-        .scroll-down{
-            left: 1044px;
-        }
-    }
-} */
-
 
 @media (max-width: 1350px) {
 
@@ -265,8 +237,12 @@
             width: 1300px;
 
             .iam-frontend{
-               
                 width: 658px;
+                .name-beruf{
+                    .btn-talk{
+                        margin-left: -424px;
+                    }
+                }
             }
         }
         .references{
@@ -306,7 +282,7 @@
                     height: 48px;
                     font-size: 44px;
                     margin-top: 60px;
-                    margin-left: 140px;
+                    margin-left: 96px;
                     text-align: start;
                     //display: none;
 
@@ -318,7 +294,7 @@
                     width: 320px;
                     font-size: 28px;
                     margin-top: -4px;
-                    margin-left: 120px;
+                    margin-left: 80px;
                     
                     
     
@@ -327,7 +303,8 @@
                  
                     width: 154px;
                     height: 48px;
-                    margin-left: -260px;
+                    margin-left: -288px;
+                    margin-top: 0px;
                    
                 }
                
@@ -358,13 +335,14 @@
         .profile-pic{
             position: absolute;
             top: 181.62px;
-            width: 740.7px;
+            width: 640.7px;
             height: 451.38px;
-            left: -30px;
+            left: 0px;
             //padding-left: 80px;
             
             background-image: url('./../../../public/assets/img/shadows.png');
-            background-position: left -0px top -240px; 
+            background-position: left -8px top -50px; 
+            background-size: 100%; 
             background-repeat: no-repeat;
             object-fit: none;
            
@@ -385,12 +363,14 @@
                height: 448.11px;
                top: 3px;
              
-               left: 200px;
+               left: 140px;
                gap: 0px;
                opacity: 0px;
+               //display: none;
 
             }
         }
+
         .hero{
             position: absolute;
             width: 365px;
@@ -399,6 +379,8 @@
             top: 589px;
             //left: -600px;
             left: -470px;
+
+         
            
 
         }
@@ -425,16 +407,17 @@
         .profile-pic{
             position: absolute;
             top: 181.62px;
-            width: 740.7px;
+            width: 640.7px;
             height: 451.38px;
-            left: -30px;
+            left: 0px;
             //padding-left: 80px;
             
             background-image: url('./../../../public/assets/img/shadows.png');
-            background-position: left -0px top -240px; 
+            background-position: left -8px top -50px; 
+            background-size: 100%; 
             background-repeat: no-repeat;
             object-fit: none;
-          
+           
            
 
             .p-pic{
@@ -450,21 +433,22 @@
                height: 670px; /* Verkleinerte Höhe */
                width: 410.61px;
                height: 448.11px;
-               top: 0px;
                top: 3px;
              
-               left: 200px;
+               left: 140px;
                gap: 0px;
                opacity: 0px;
+               //display: none;
 
             }
         }
+
         .hero{
             position: absolute;
             width: 365px;
             height: 239px;
            
-            top: 579px;
+            top: 589px;
             //left: -600px;
             left: -470px;
            
@@ -488,18 +472,19 @@
 
     .profile{
         height: 915.31px;
-    
+       
       
         .profile-pic{
             position: absolute;
             top: 181.62px;
-            width: 740.7px;
+            width: 540.7px;
             height: 451.38px;
-            left: -200px;
+            left: 0px;
             //padding-left: 80px;
             
             background-image: url('./../../../public/assets/img/shadows.png');
-            background-position: left -0px top -240px; 
+            background-position: left -8px top -50px; 
+            background-size: 100%; 
             background-repeat: no-repeat;
             object-fit: none;
            
@@ -518,23 +503,29 @@
                height: 670px; /* Verkleinerte Höhe */
                width: 410.61px;
                height: 448.11px;
-               top: 0px;
                top: 3px;
              
-               left: 280px;
+               left: 40px;
                gap: 0px;
                opacity: 0px;
+               //display: none;
 
             }
         }
+
         .hero{
             position: absolute;
-            width: 365px;
+            width: 300px;
             height: 239px;
            
-            top: 579px;
+            top: 589px;
             //left: -600px;
-            left: -550px;
+            left: -560px;
+
+            .iam-frontend{
+                position: absolute;
+                width: 380px;
+            }
            
 
         }
@@ -557,21 +548,22 @@
 
     .profile{
         height: 915.31px;
-     
+       
       
         .profile-pic{
             position: absolute;
             top: 181.62px;
-            width: 740.7px;
+            width: 460.7px;
             height: 451.38px;
-            left: -260px;
+            left: 0px;
             //padding-left: 80px;
             
             background-image: url('./../../../public/assets/img/shadows.png');
-            background-position: left -0px top -240px; 
+            background-position: left -8px top 0px; 
+            background-size: 105%; 
             background-repeat: no-repeat;
             object-fit: none;
-          
+           
            
 
             .p-pic{
@@ -579,35 +571,38 @@
                 position: absolute;
             /*     width: 410.61px;
                 height: 448.11px; */
-              
-              
-               width: 646px;
-               height: 705px;
-               width: 520px; /* Verkleinerte Breite */
-               height: 670px; /* Verkleinerte Höhe */
-               width: 410.61px;
+            
+               width: 370.61px;
                height: 448.11px;
-               top: 0px;
                top: 3px;
-               left: 280px;
+             
+               left: 40px;
                gap: 0px;
                opacity: 0px;
+               //display: none;
+             
 
             }
         }
+
         .hero{
             position: absolute;
-            width: 365px;
+            width: 300px;
             height: 239px;
            
-            top: 579px;
+            top: 589px;
             //left: -600px;
-            left: -600px;
+            left: -560px;
+
+            .iam-frontend{
+                position: absolute;
+                width: 380px;
+            }
            
 
         }
         .references{
-            width: 295px;
+           
             top: 778px;
             top: 871px;
            
@@ -615,7 +610,9 @@
                 display: none;
             }
             .references-line{
-
+                width: 300px;
+                margin-left: -280px;
+               
                 .line{
                     margin-top: 12px;
                     width: 100px;
@@ -629,6 +626,8 @@
                     display: none;
                 }
             }
+             
+            
         }
 
        
@@ -644,13 +643,14 @@
         .profile-pic{
             position: absolute;
             top: 181.62px;
-            width: 740.7px;
+            width: 380.7px;
             height: 451.38px;
-            left: -348px;
+            left: 0px;
             //padding-left: 80px;
             
             background-image: url('./../../../public/assets/img/shadows.png');
-            background-position: left -0px top -240px; 
+            background-position: left -8px top 0px; 
+            background-size: 105%; 
             background-repeat: no-repeat;
             object-fit: none;
            
@@ -659,30 +659,40 @@
             .p-pic{
                 
                 position: absolute;
-          
-               width: 380.61px;
+            /*     width: 410.61px;
+                height: 448.11px; */
+            
+               width: 310.61px;
                height: 448.11px;
-               top: 0px;
+               top: 3px;
              
-               left: 350px;
+               left: 40px;
                gap: 0px;
                opacity: 0px;
+               //display: none;
+          
 
             }
         }
+
         .hero{
             position: absolute;
-            width: 365px;
+            width: 300px;
             height: 239px;
            
-            top: 579px;
+            top: 589px;
             //left: -600px;
-            left: -680px;
+            left: -620px;
+
+            .iam-frontend{
+                position: absolute;
+                width: 380px;
+            }
            
 
         }
         .references{
-            width: 295px;
+            
             top: 778px;
             top: 871px;
            
@@ -690,7 +700,9 @@
                 display: none;
             }
             .references-line{
-
+                width: 300px;
+                margin-left: -280px;
+              
                 .line{
                     margin-top: 12px;
                     width: 100px;
@@ -704,62 +716,94 @@
                     display: none;
                 }
             }
+             
+            
         }
 
        
        
     }
 }
-
 @media (max-width: 400px) {
 
     .profile{
         height: 915.31px;
-      
+       
       
         .profile-pic{
             position: absolute;
             top: 181.62px;
-            width: 740.7px;
+            width: 360.7px;
             height: 451.38px;
-            left: -356px;
+            left: 0px;
             //padding-left: 80px;
             
             background-image: url('./../../../public/assets/img/shadows.png');
-            background-position: left 230px top -200px; 
+            background-position: left -8px top 40px; 
+            background-size: 105%; 
             background-repeat: no-repeat;
             object-fit: none;
-          
+           
            
 
             .p-pic{
                 
                 position: absolute;
-          
-               width: 380.61px;
+            /*     width: 410.61px;
+                height: 448.11px; */
+            
+               width: 310.61px;
                height: 448.11px;
-              
                top: 3px;
-               left: 356px;
+             
+               left: 24px;
                gap: 0px;
                opacity: 0px;
+               //display: none;
+               
 
             }
         }
+
         .hero{
             position: absolute;
-            width: 340px;
+            width: 300px;
             height: 239px;
            
-            top: 579px;
+            top: 589px;
             //left: -600px;
-            left: -680px;
-           
+            left: -620px;
+
+            .iam-frontend{
+                position: absolute;
+                width: 340px;
+                margin-left: 20px;
+              
+                .iam {
+                    margin-left: -66px;
+                    font-size: 32px;
+                  
+                }
+                .name-beruf{
+                    margin-left: -60px;
+
+                    .name{
+                        font-size: 44px;
+                    }
+                    .frontend{
+                        font-size: 28px;
+                    }
+                    .btn-talk{
+                        margin-left: -232px;
+                    }
+                   
+                }
+            }
            
 
         }
         .references{
-            width: 295px;
+            
             top: 778px;
             top: 871px;
            
@@ -767,7 +811,9 @@
                 display: none;
             }
             .references-line{
-
+                width: 300px;
+                margin-left: -280px;
+            
                 .line{
                     margin-top: 12px;
                     width: 100px;
@@ -781,6 +827,8 @@
                     display: none;
                 }
             }
+             
+            
         }
 
        
@@ -791,70 +839,85 @@
 
     .profile{
         height: 915.31px;
-      
+       
       
         .profile-pic{
             position: absolute;
             top: 181.62px;
-            width: 740.7px;
+            width: 332.7px;
             height: 451.38px;
-            left: -396px;
+            left: 0px;
             //padding-left: 80px;
             
             background-image: url('./../../../public/assets/img/shadows.png');
-            background-position: left -0px top -240px; 
+            background-position: left -8px top 40px; 
+            background-size: 105%; 
             background-repeat: no-repeat;
             object-fit: none;
-          
+           
            
 
             .p-pic{
                 
                 position: absolute;
-          
-               width: 340.61px;
+            /*     width: 410.61px;
+                height: 448.11px; */
+            
+               width: 300.61px;
                height: 448.11px;
-               top: 0px;
+               top: 3px;
              
-               left: 400px;
+               left: 16px;
                gap: 0px;
                opacity: 0px;
+               //display: none;
+        
 
             }
         }
+
         .hero{
             position: absolute;
-            width: 340px;
+            width: 300px;
             height: 239px;
            
-            top: 579px;
+            top: 589px;
             //left: -600px;
-            left: -670px;
+            left: -620px;
+
             .iam-frontend{
+                position: absolute;
                 width: 300px;
-
-
+                margin-left: 20px;
+              
+                .iam {
+                    margin-left: -66px;
+                    font-size: 32px;
+                  
+                }
                 .name-beruf{
-                    .name {
-                        width: 240px;
+                    margin-left: -60px;
+                    margin-top: -156px;
+
+                    .name{
+                        font-size: 44px;
+                      
                     }
                     .frontend{
-                        
-                         font-size: 24px;
-                         margin-left: 80px;
-                    
-                     }
-                     .btn-talk{
-                        margin-left: -160px;
-                     }
+                        margin-left: 40px;
+                        font-size: 24px;
+                    }
+                    .btn-talk{
+                        margin-left: -216px;
+                    }
+                   
                 }
             }
-           
            
 
         }
         .references{
-            width: 295px;
+            
             top: 778px;
             top: 871px;
            
@@ -862,7 +925,9 @@
                 display: none;
             }
             .references-line{
-
+                width: 300px;
+                margin-left: -280px;
+             ;
                 .line{
                     margin-top: 12px;
                     width: 100px;
@@ -876,13 +941,14 @@
                     display: none;
                 }
             }
+             
+            
         }
 
        
        
     }
 }
-
 @media (max-width: 350px) {
 
     .profile{
@@ -892,67 +958,80 @@
         .profile-pic{
             position: absolute;
             top: 181.62px;
-            width: 740.7px;
+            width: 316.7px;
             height: 451.38px;
-            left: -432px;
+            left: 0px;
             //padding-left: 80px;
             
             background-image: url('./../../../public/assets/img/shadows.png');
-          
-            background-position: left 20px top -200px; 
+            background-position: left -8px top 40px; 
+            background-size: 102%; 
             background-repeat: no-repeat;
             object-fit: none;
-            //border: 2px solid rgba(255, 255, 255, 1);
+           
            
 
             .p-pic{
                 
                 position: absolute;
-          
-               width: 310.61px;
+            /*     width: 410.61px;
+                height: 448.11px; */
+            
+               width: 280.61px;
                height: 448.11px;
-               top: 0px;
-               top: 4px;
+               top: 3px;
              
-               left: 432px;
+               left: 8px;
                gap: 0px;
                opacity: 0px;
+               //display: none;
+              
 
             }
         }
+
         .hero{
             position: absolute;
-            width: 340px;
+            width: 300px;
             height: 239px;
            
-            top: 579px;
+            top: 589px;
             //left: -600px;
-            left: -684px;
+            left: -620px;
+
             .iam-frontend{
+                position: absolute;
                 width: 300px;
-
-
+                margin-left: 4px;
+              
+                .iam {
+                    margin-left: -66px;
+                    font-size: 32px;
+                  
+                }
                 .name-beruf{
-                    .name {
-                        width: 240px;
+                    margin-left: -60px;
+                    margin-top: -156px;
+
+                    .name{
+                        font-size: 44px;
+                      
                     }
                     .frontend{
-                        
-                         font-size: 24px;
-                         margin-left: 80px;
-                    
-                     }
-                     .btn-talk{
-                        margin-left: -160px;
-                     }
+                        margin-left: 40px;
+                        font-size: 24px;
+                    }
+                    .btn-talk{
+                        margin-left: -216px;
+                    }
+                   
                 }
             }
-           
            
 
         }
         .references{
-            width: 295px;
+            
             top: 778px;
             top: 871px;
            
@@ -960,7 +1039,9 @@
                 display: none;
             }
             .references-line{
-
+                width: 300px;
+                margin-left: -280px;
+      
                 .line{
                     margin-top: 12px;
                     width: 100px;
@@ -974,12 +1055,15 @@
                     display: none;
                 }
             }
+             
+            
         }
 
        
        
     }
 }
+
 
 
 

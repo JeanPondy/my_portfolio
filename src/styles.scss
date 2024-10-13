@@ -30,11 +30,11 @@ body {
   margin: 0 auto; /* Zentriert die Seite horizontal */
   background-color: rgba(20, 29, 47, 1); /* Hintergrundfarbe */
   min-height: 100vh; /* Die Seite muss mindestens die Höhe des Bildschirms haben */
-  background-image: url('./../public/assets/img/shapeheropage.png');
+ background-image: url('./../public/assets/img/shapeheropage.png');
   background-repeat: no-repeat;
   background-position: center top 360px; /* Position des Hintergrundbildes */
   overflow-x: hidden; /* Verhindert horizontales Scrollen */
-  border: 1px solid rgb(238, 12, 246);
+  //border: 1px solid rgb(238, 12, 246);
 }
 
 .content-wrapper {
@@ -49,7 +49,7 @@ body {
   background-position: right 0px top 1000px; /* Position des Hintergrundbildes */
   overflow-x: hidden; /* Verhindert horizontales Scrollen */
   overflow-y: hidden; /* Verhindert vertikales Scrollen */
-  border: 3px solid yellow;
+  //border: 3px solid yellow;
 }
 
 
@@ -236,6 +236,10 @@ body {
   body{
     //height: 7457px;
     height: 6700px;
+    background-image: url('./../public/assets/img/shapeheropage.png');
+    background-repeat: no-repeat;
+    background-position: center top 210px; /* Position des Hintergrundbildes */
+
     .content-wrapper {
       width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
       max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
@@ -243,7 +247,7 @@ body {
      
     }
   }
-  .ober{
+ /*  .ober{
     .big-bg {
        display: none;
       }
@@ -260,7 +264,7 @@ body {
     
 
 
-  }
+  } */
 } 
 @media (max-width: 1010px) {
 
