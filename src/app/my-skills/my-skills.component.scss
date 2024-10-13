@@ -7,7 +7,7 @@
    
     display: flex;
     justify-content: space-between;
-    //border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
     //display: none;
   
 
@@ -20,6 +20,8 @@
         //border: 2px solid rgba(255, 255, 255, 1);
 
         .html{
+            width: 88px;
+            height: 101px;
             display: flex;
             flex-direction: column;
             color: white;
@@ -38,6 +40,8 @@
         }
        
         .css{
+            width: 88px;
+            height: 101px;
             display: flex;
             flex-direction: column;
             color: white;
@@ -63,6 +67,8 @@
             }
         }
         .js{
+            width: 88px;
+            height: 101px;
             display: flex;
             flex-direction: column;
             color: white;
@@ -88,6 +94,8 @@
             }
         }
         .ts{
+            width: 88px;
+            height: 101px;
             display: flex;
             flex-direction: column;
             color: white;
@@ -113,6 +121,8 @@
             }
         }
         .angular{
+            width: 88px;
+            height: 101px;
             display: flex;
             flex-direction: column;
             color: white;
@@ -138,6 +148,8 @@
             }
         }
         .firebase{
+            width: 88px;
+            height: 101px;
             display: flex;
             flex-direction: column;
             color: white;
@@ -163,6 +175,8 @@
             }
         }
         .git{
+            width: 88px;
+            height: 101px;
             display: flex;
             flex-direction: column;
             color: white;
@@ -188,6 +202,8 @@
             }
         }
         .api{
+            width: 88px;
+            height: 101px;
             display: flex;
             flex-direction: column;
             color: white;
@@ -215,11 +231,14 @@
             }
         }
         .scrum{
+            width: 88px;
+            height: 101px;
             display: flex;
             flex-direction: column;
             color: white;
             justify-content: center;
             align-items: center;
+            text-align: center;
 
             >img{
                 
@@ -240,11 +259,14 @@
             }
         }
         .material-d{
+            width: 88px;
+            height: 101px;
             display: flex;
             flex-direction: column;
             color: white;
             justify-content: center;
             align-items: center;
+            text-align: center;
 
             >img{
                 
@@ -266,6 +288,8 @@
             }
         }
         .c-learning{
+            width: 88px;
+            height: 119px;
             display: flex;
             flex-direction: column;
             color: white;
