@@ -4,7 +4,7 @@
      height: 340px;
      gap: 35px;
      display: flex;
-     //border: 2px solid rgba(255, 255, 255, 1);
+     //border: 2px solid rgb(22, 81, 218);
      
  
      >img{
@@ -221,7 +221,8 @@
     .dabubble{
         margin: 0px 0 0 0px;
         width: 800px;
-        height: 552.99px;//
+        height: 587.43px;//
+        margin-top: 0px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -231,7 +232,7 @@
          >img{
             width: 460px;//
             height: 230px;//
-            margin-top: 24px;//
+            margin-top: -40px;//
        
          }
      
@@ -239,7 +240,7 @@
      
              display: flex;
              flex-direction: column;
-             margin-top: 0px;
+             margin-top: 40px;
              width: 315px;
              margin-left: -0px;//
              align-items: center;
@@ -249,10 +250,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: -32px;
+               
             }
             h4{
                 width: 308px;
-                margin-bottom: 24px;
+                margin-bottom: 56px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -268,6 +271,7 @@
                align-items: center;
                justify-content: center;
                text-align: justify;
+               margin-bottom: 100px;
             }
             }
         }
@@ -277,17 +281,19 @@
     .dabubble{
         margin: 0px 0 0 0px;
         width: 490px;
-        height: 552.99px;//
+        height: 587.43px;//
+        margin-top: 0px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 120px;
        
         
          
          >img{
             width: 460px;//
             height: 230px;//
-            margin-top: 24px;//
+            margin-top: -40px;//
        
          }
      
@@ -295,7 +301,7 @@
      
              display: flex;
              flex-direction: column;
-             margin-top: 0px;
+             margin-top: 40px;
              width: 315px;
              margin-left: -0px;//
              align-items: center;
@@ -305,10 +311,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: -32px;
+               
             }
             h4{
                 width: 308px;
-                margin-bottom: 24px;
+                margin-bottom: 56px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -324,27 +332,32 @@
                align-items: center;
                justify-content: center;
                text-align: justify;
+               margin-bottom: 100px;
             }
             }
         }
 
 }
+
 @media (max-width: 880px){}
+
 @media (max-width: 730px){
     .dabubble{
         margin: 0px 0 0 0px;
         width: 460px;
-        height: 552.99px;//
+        height: 587.43px;//
+        margin-top: 0px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 0px;
        
         
          
          >img{
             width: 460px;//
             height: 230px;//
-            margin-top: 24px;//
+            margin-top: -40px;//
        
          }
      
@@ -352,7 +365,7 @@
      
              display: flex;
              flex-direction: column;
-             margin-top: 0px;
+             margin-top: 40px;
              width: 315px;
              margin-left: -0px;//
              align-items: center;
@@ -362,10 +375,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: -32px;
+               
             }
             h4{
                 width: 308px;
-                margin-bottom: 24px;
+                margin-bottom: 56px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -381,26 +396,30 @@
                align-items: center;
                justify-content: center;
                text-align: justify;
+               margin-bottom: 100px;
             }
             }
         }
 
 }
+
 @media (max-width: 590px){
     .dabubble{
         margin: 0px 0 0 0px;
         width: 370px;
-        height: 552.99px;//
+        height: 587.43px;//
+        margin-top: 0px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 0px;
        
         
          
          >img{
             width: 342px;//
             height: 213px;//
-            margin-top: 24px;//
+            margin-top: -40px;//
        
          }
      
@@ -408,7 +427,7 @@
      
              display: flex;
              flex-direction: column;
-             margin-top: 0px;
+             margin-top: 40px;
              width: 315px;
              margin-left: -0px;//
              align-items: center;
@@ -418,10 +437,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: -32px;
+               
             }
             h4{
                 width: 308px;
-                margin-bottom: 24px;
+                margin-bottom: 64px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -436,8 +457,11 @@
                text-align: justify; display: flex;
                align-items: center;
                justify-content: center;
-               text-align: justify;
+               //text-align: justify;
+               text-align: center;
+               margin-bottom: 104px;
             }
+
             .buttons{
                 width: 339px;
                 height: 65.36px;
@@ -446,27 +470,34 @@
                 align-items: center;
                 justify-content: center;
             }
+
+
             }
         }
 
 }
 
+
+
 @media (max-width: 490px){}
+
 @media (max-width: 388px){
     .dabubble{
         margin: 0px 0 0 0px;
         width: 322px;
-        height: 552.99px;//
+        height: 587.43px;//
+        margin-top: 0px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 0px;
        
         
          
          >img{
             width: 342px;//
             height: 213px;//
-            margin-top: 24px;//
+            margin-top: -40px;//
        
          }
      
@@ -474,7 +505,7 @@
      
              display: flex;
              flex-direction: column;
-             margin-top: 0px;
+             margin-top: 40px;
              width: 315px;
              margin-left: -0px;//
              align-items: center;
@@ -484,74 +515,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: -32px;
+               
             }
             h4{
                 width: 308px;
-                margin-bottom: 24px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-            }
-            p{
-               width: 300px;
-               margin-bottom: 32px;
-               display: flex;
-               align-items: center;
-               justify-content: center;
-               text-align: justify; display: flex;
-               align-items: center;
-               justify-content: center;
-               text-align: justify;
-            }
-            .buttons{
-                width: 339px;
-                height: 65.36px;
-                gap: 20px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            }
-        }
-
-}
-@media (max-width: 350px){
-    .dabubble{
-        margin: 0px 0 0 0px;
-        width: 302px;
-        height: 552.99px;//
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       
-        
-         
-         >img{
-            width: 321px;//
-            height: 213px;//
-            margin-top: 24px;//
-       
-         }
-     
-         .dabubble-info{
-     
-             display: flex;
-             flex-direction: column;
-             margin-top: 0px;
-             width: 300px;
-             margin-left: -0px;//
-             align-items: center;
-     
-             h3{
-                width: 196px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            h4{
-                width: 300px;
-                margin-bottom: 24px;
+                margin-bottom: 64px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -566,21 +535,104 @@
                text-align: justify; display: flex;
                align-items: center;
                justify-content: center;
-               text-align: justify;
+               //text-align: justify;
+               text-align: center;
+               margin-bottom: 104px;
             }
+
             .buttons{
-                width: 319px;
+                width: 339px;
+                width: 316;
                 height: 65.36px;
-                gap: 10px;
+                gap: 30px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
             }
+
+
+            }
+        }
+
+}
+@media (max-width: 350px){
+    .dabubble{
+        margin: 0px 0 0 0px;
+        width: 302px;
+        height: 587.43px;//
+        margin-top: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+       
+        
+         
+         >img{
+            width: 321px;//
+            height: 213px;//
+            margin-top: -32px;//
+       
+         }
+     
+         .dabubble-info{
+     
+             display: flex;
+             flex-direction: column;
+             margin-top: 40px;
+             width: 300px;
+             margin-left: -0px;//
+             align-items: center;
+     
+             h3{
+                width: 196px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: -32px;
+               
+            }
+            h4{
+                width: 290px;
+                margin-bottom: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+         
+
+            }
+            p{
+               width: 290px;
+               height: 120px;
+            
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               text-align: justify; display: flex;
+               align-items: center;
+               justify-content: center;
+               //text-align: justify;
+               text-align: center;
+               margin-bottom: 88px;
+           
+            }
+
+            .buttons{
+                width: 304px;
+                height: 65.36px;
+                gap: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            
+            }
+
+
             }
         }
 
 }
 
- 
+
  
  

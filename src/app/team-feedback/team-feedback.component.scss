@@ -1,22 +1,19 @@
-/* .bg-image{
-    width: 1800px;
-    height: auto;
-    background-image: url("./../../../public/assets/img/purple-shadow.png");
-    display: none;
 
-} */
 .team-feedback{
     position: absolute;
    
     width: 1340px;
     height: 378px;
     top: 4726px;
+    top: 4536px;
+    top: 4660px;
+    //top: 6726px;
     left: 100px;
     gap: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
-   // border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
     //display: none;
 
     .capo{
@@ -296,8 +293,9 @@
     .team-feedback{
         width: 980px;
         height: 512px;
-        top: 4726px;
-        top: 4756px;//+30
+        top: 4636px;
+        top: 4760px;//neu
+      
 
         .capo{
             position: absolute;
@@ -375,6 +373,7 @@
     .team-feedback{
         width: 880px;
         height: 512px;
+      
        
 
         .capo{
@@ -453,9 +452,8 @@
     .team-feedback{
         width: 800px;
         height: 512px;
-       
-        top: 5137.72px;
-        top: 4856px;//+30
+        top: 4986px;//neu
+        top: 5110px;
        
 
         .capo{
@@ -537,8 +535,8 @@
     .team-feedback{
         width: 800px;
         height: 512px;
-        top: 5737.72px;// richtig
-        top: 5800px;// +70px
+        top: 6160px;
+      
         
         
 
@@ -622,11 +620,7 @@
     .team-feedback{
         width: 740px;
         height: 512px;
-        top: 5737.72px;// richtig
-        top: 5760px;// +70px
-        
-        
-
+       
         .capo{
             position: absolute;
             width: 96.9px;
@@ -723,6 +717,7 @@
         //top: 5737.72px;// richtig
         //top: 5187.72px;
          //top: 6200.72px;
+      
         
 
         .capo{
@@ -818,7 +813,7 @@
         width: 460px;
         height: 512px;
         top: 5737.72px;// gegebene wert
-        
+       
         
 
         .capo{
@@ -918,7 +913,7 @@
         width: 370px;
         height: 512px;
         top: 5737.72px;// gegebene wert
-        
+       
 
         .capo{
             position: absolute;
@@ -1053,7 +1048,7 @@
         height: 512px;
         top: 5737.72px;// gegebene wert
          left: 10px;
-        
+    
 
         .capo{
             position: absolute;
@@ -1160,7 +1155,7 @@
         
          top: 6017.72px;// gegebene wert
          left: 10px;
-        
+     
 
         .capo{
             position: absolute;
@@ -1267,7 +1262,7 @@
         //top: 5187.72px;
         top: 6017.72px;// gegebene wert
         left: 8px;
-        
+       
 
         .capo{
             position: absolute;

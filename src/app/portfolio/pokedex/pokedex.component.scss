@@ -4,7 +4,7 @@
     height: 339.19px;
     gap: 35px;
     //margin-top: 80px;
-   // border: 2px solid rgba(255, 255, 255, 1);
+    //border: 2px solid rgba(255, 255, 255, 1);
 
     >img{
         width: 620px;
@@ -301,6 +301,7 @@
         margin-top: 0px;
         width: 800px;
         height: 552.99px;//
+        height: 587.43px;//
         padding-left: 0px;
         justify-content: center;
         align-items: center;
@@ -308,7 +309,7 @@
         >img{
             width: 460px;//
             height: 230px;//
-            margin-top: 40px;//
+            margin-top: -32px;//
           
            
         }
@@ -320,7 +321,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 0px;
+            margin-top: 32px;
             align-items: center;
         
 
@@ -352,6 +353,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 56px;
             }
     
             p{
@@ -365,7 +367,7 @@
                 display: flex;
                 align-items: center;
                 text-align: justify;
-                margin-bottom: 24px;
+                margin-bottom: 96px;
             } 
         }
     }
@@ -376,15 +378,16 @@
         flex-direction: column-reverse;
         margin-top: 0px;
         width: 490px;
-        height: 552.99px;//
+        height: 587.43px;//
         padding-left: 0px;
         justify-content: center;
         align-items: center;
+        margin-left: 120px;
 
         >img{
             width: 460px;//
             height: 230px;//
-            margin-top: 40px;//
+            margin-top: -32px;//
           
            
         }
@@ -396,7 +399,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 0px;
+            margin-top: 32px;
             align-items: center;
         
 
@@ -428,6 +431,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 56px;
             }
     
             p{
@@ -441,7 +445,7 @@
                 display: flex;
                 align-items: center;
                 text-align: justify;
-                margin-bottom: 24px;
+                margin-bottom: 96px;
             } 
         }
     }
@@ -454,15 +458,16 @@
         flex-direction: column-reverse;
         margin-top: 0px;
         width: 460px;
-        height: 552.99px;//
+        height: 587.43px;//
         padding-left: 0px;
         justify-content: center;
         align-items: center;
+        margin-left: 0px;
 
         >img{
             width: 460px;//
             height: 230px;//
-            margin-top: 40px;//
+            margin-top: -32px;//
           
            
         }
@@ -474,7 +479,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 0px;
+            margin-top: 32px;
             align-items: center;
         
 
@@ -506,6 +511,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 56px;
             }
     
             p{
@@ -519,26 +525,28 @@
                 display: flex;
                 align-items: center;
                 text-align: justify;
-                margin-bottom: 24px;
+                margin-bottom: 96px;
             } 
         }
     }
 }
+
 @media (max-width: 590px){
     .pokedex{
         display: flex;
         flex-direction: column-reverse;
         margin-top: 0px;
         width: 370px;
-        height: 552.99px;//
+        height: 587.43px;//
         padding-left: 0px;
         justify-content: center;
         align-items: center;
+        margin-left: 0px;
 
         >img{
             width: 342px;//
             height: 213px;//
-            margin-top: 40px;//
+            margin-top: -40px;//
           
            
         }
@@ -550,7 +558,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 0px;
+            margin-top: 24px;
             align-items: center;
         
 
@@ -582,6 +590,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 64px;
             }
     
             p{
@@ -594,9 +603,9 @@
                 color: rgba(255, 255, 255, 1);
                 display: flex;
                 align-items: center;
-                text-align: justify;
-                margin-bottom: 24px;
-            }
+                text-align: center;
+                margin-bottom: 104px;
+            } 
             .buttons{
                 width: 339px;
                 height: 65.36px;
@@ -608,6 +617,8 @@
         }
     }
 }
+
+
 @media (max-width: 490px){}
 @media (max-width: 388px){
     .pokedex{
@@ -615,15 +626,16 @@
         flex-direction: column-reverse;
         margin-top: 0px;
         width: 322px;
-        height: 552.99px;//
+        height: 587.43px;//
         padding-left: 0px;
         justify-content: center;
         align-items: center;
+        margin-left: 0px;
 
         >img{
             width: 342px;//
             height: 213px;//
-            margin-top: 40px;//
+            margin-top: -40px;//
           
            
         }
@@ -635,7 +647,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 0px;
+            margin-top: 24px;
             align-items: center;
         
 
@@ -667,6 +679,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 64px;
             }
     
             p{
@@ -679,35 +692,38 @@
                 color: rgba(255, 255, 255, 1);
                 display: flex;
                 align-items: center;
-                text-align: justify;
-                margin-bottom: 24px;
-            }
+                text-align: center;
+                margin-bottom: 104px;
+            } 
             .buttons{
-                width: 339px;
+                width: 316px;
                 height: 65.36px;
-                gap: 20px;
+                gap: 30px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                
             } 
         }
     }
 }
+
 @media (max-width: 350px){
     .pokedex{
         display: flex;
         flex-direction: column-reverse;
         margin-top: 0px;
         width: 302px;
-        height: 552.99px;//
+        height: 587.43px;//
         padding-left: 0px;
         justify-content: center;
         align-items: center;
+        margin-left: 0px;
 
         >img{
             width: 321px;//
             height: 213px;//
-            margin-top: 40px;//
+            margin-top: -40px;//
           
            
         }
@@ -719,7 +735,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 0px;
+            margin-top: 24px;
             align-items: center;
         
 
@@ -740,7 +756,7 @@
             }
     
             h4{
-                width: 300px;
+                width: 264px;
                 height: 28px;
                 font-family: Poppins;
                 font-weight: 400;
@@ -751,6 +767,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 64px;
             }
     
             p{
@@ -763,16 +780,17 @@
                 color: rgba(255, 255, 255, 1);
                 display: flex;
                 align-items: center;
-                text-align: justify;
-                margin-bottom: 24px;
-            }
+                text-align: center;
+                margin-bottom: 104px;
+            } 
             .buttons{
-                width: 319px;
+                width: 304px;
                 height: 65.36px;
-                gap: 10px;
+                gap: 16px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                
             } 
         }
     }
