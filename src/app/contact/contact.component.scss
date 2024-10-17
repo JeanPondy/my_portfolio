@@ -1,12 +1,16 @@
 .contact{
-    position: absolute;
-    top: 5288px;
-    width: 1340px;
-    height: 747px;
-    display: flex;
-    flex-direction: column;
-    //border: 2px solid rgba(255, 255, 255, 1);
-    display: none;
+  width: 1340px;
+  height: 747px;
+  top: 5286px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(255, 255, 255, 1);
+   
+  
+   
+ 
+  
     
 
     .line-title{
@@ -153,7 +157,7 @@
         height: 24px;
         cursor: pointer;
       
-        margin-top: 32px;
+        margin-top: 60px;
         margin-left: 1310px;
      
         font-size: 12px;
@@ -256,17 +260,18 @@ input[type="checkbox"] {
   
 
   /* --------------reserve */
-@media (max-width: 1669px){}
+
 @media (max-width: 1438px){}
 @media (max-width: 1350px){
   .contact{
     position: absolute;
-    top: 5348px;// +30
-    top: 5378px;
+  
     width: 1080px;
     height: 747px;
     display: flex;
     flex-direction: column;
+    top: 5386px;
+    top: 5568px;
 
     .down-line{
       width: 24px;
@@ -314,13 +319,13 @@ input[type="checkbox"] {
 }
 @media (max-width: 1098px){
   .contact{
-    position: absolute;
-    top: 5348px;// +30
-    top: 5378px;
     width: 980px;
     height: 747px;
+    position: absolute;
     display: flex;
     flex-direction: column;
+    top: 5386px;
+    top: 5568px;
 
     .down-line{
       width: 24px;
@@ -369,13 +374,11 @@ input[type="checkbox"] {
 @media (max-width: 1060px){
   .contact{
     position: absolute;
-    //top: 6350px;
-  
-    top: 5468px;
     width: 900px;
     height: 747px;
     display: flex;
     flex-direction: column;
+    top: 5936px;
 
     .down-line{
       width: 24px;
@@ -424,12 +427,12 @@ input[type="checkbox"] {
 @media (max-width: 980px){
   .contact{
     position: absolute;
-    top: 6350px;//        mobile
-    top: 6450px;// +100px
     width: 900px;
     height: 747px;
     display: flex;
     flex-direction: column;
+    top: 6820px;
+    top: 7002px;
 
     .line-title{
       width: 893px;
@@ -516,12 +519,12 @@ input[type="checkbox"] {
 @media (max-width: 940px){
   .contact{
     position: absolute;
-    top: 6350px;//        mobile
-    top: 6400px;// +100px
     width: 840px;
     height: 797.28px;
     display: flex;
     flex-direction: column;
+   
+    top: 7016px;
 
     .line-title{
       width: 839px;
@@ -610,12 +613,11 @@ input[type="checkbox"] {
 @media (max-width: 880px){
   .contact{
     position: absolute;
-    top: 6350px;//        mobile
-    top: 6400px;// +50px
     width: 704px;
     height: 797.28px;
     display: flex;
     flex-direction: column;
+    top: 6972px;
 
     .line-title{
       width: 703px;
@@ -704,12 +706,12 @@ input[type="checkbox"] {
 @media (max-width: 730px){
   .contact{
     position: absolute;
-    top: 6350px;//        mobile
-    //top: 5800px;
     width: 564px;
     height: 797.28px;
     display: flex;
     flex-direction: column;
+    top: 6806px;
+    top: 6988px;
 
     .line-title{
       width: 563px;
@@ -798,14 +800,15 @@ input[type="checkbox"] {
 @media (max-width: 590px){
   .contact{
     position: absolute;
-    top: 6350px;//        mobile
-    //top: 5800px;
+  
     width: 472px;
     height: 797.28px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    top: 6760px;
+    top: 6942px;
     
 
     .line-title{
@@ -852,7 +855,7 @@ input[type="checkbox"] {
       height: 24px;
       cursor: pointer;
     
-      margin-top: 144px;
+      margin-top: 164px;
       margin-left: 420px;
   }
 
@@ -868,6 +871,7 @@ input[type="checkbox"] {
         gap: 24px;
         //border: 4px solid rgba(255, 255, 255, 1);
         color: rgba(255, 255, 255, 1);
+        margin-top: -40px;
 
 
         h3{
@@ -922,15 +926,16 @@ input[type="checkbox"] {
 @media (max-width: 490px){
   .contact{
     position: absolute;
-    top: 6350px;//        mobile
-    //top: 5800px;
-    width: 366px;
+   
+    width: 386px;
     height: 797.28px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    //padding: 0 4px;
+    top: 7052px;
+    top: 7234px;
+    top: 6942px;
    
 
     .line-title{
@@ -979,7 +984,7 @@ input[type="checkbox"] {
       height: 24px;
       cursor: pointer;
     
-      margin-top: 144px;
+      margin-top: 164px;
       margin-left: 320px;
   }
 
@@ -995,6 +1000,7 @@ input[type="checkbox"] {
         gap: 24px;
         //border: 4px solid rgba(255, 255, 255, 1);
         color: rgba(255, 255, 255, 1);
+        margin-top: -40px;
 
 
         h3{
@@ -1049,15 +1055,16 @@ input[type="checkbox"] {
 @media (max-width: 400px){
   .contact{
     position: absolute;
-    top: 6350px;//        mobile
-    //top: 5800px;
-    width: 366px;
+   
+    width: 376px;
     height: 797.28px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     //padding: 0 4px;
+    top: 6718px;
+    top: 6530.28px;
    
 
     .line-title{
@@ -1106,7 +1113,7 @@ input[type="checkbox"] {
       height: 24px;
       cursor: pointer;
     
-      margin-top: 144px;
+      margin-top: 168px;
       margin-left: 320px;
   }
 
@@ -1122,6 +1129,7 @@ input[type="checkbox"] {
         gap: 24px;
         //border: 4px solid rgba(255, 255, 255, 1);
         color: rgba(255, 255, 255, 1);
+        margin-top: -40px;
 
 
         h3{
@@ -1176,15 +1184,13 @@ input[type="checkbox"] {
 @media (max-width: 388px){
   .contact{
     position: absolute;
-    top: 6630px;//        mobile
-    //top: 5800px;
     width: 332px;
     height: 797.28px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    //padding: 0 4px;
+    top: 6862.28px;
 
     .line-title{
       width: 331px;
@@ -1234,7 +1240,7 @@ input[type="checkbox"] {
     
       margin-top: 144px;
       margin-top: 180px;
-      margin-left: 240px;
+      margin-left: 300px;
   }
 
     .info-contact-area{
@@ -1304,15 +1310,14 @@ input[type="checkbox"] {
 @media (max-width: 350px){
   .contact{
     position: absolute;
-    top: 6630px;//        mobile
-    //top: 5800px;
-    width: 316px;
+    width: 308px;
     height: 797.28px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    //padding: 0 4px;
+    top: 6786.28px;
+    top: 6886.28px;
 
     .line-title{
       width: 315px;
@@ -1362,7 +1367,7 @@ input[type="checkbox"] {
     
       margin-top: 144px;
       margin-top: 180px;
-      margin-left: 240px;
+      margin-left: 270px;
   }
 
     .info-contact-area{

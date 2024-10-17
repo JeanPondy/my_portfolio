@@ -1,11 +1,11 @@
 .aboutMe-picture{
-    position: absolute;
     width: 1340px;
-    height: 548px;
+    height: 532px;
     top: 1067px;
     left: 100px;
+    position: absolute;
+    border: 2px solid rgba(255, 255, 255, 1);
     //display: flex;
-   // border: 2px solid rgba(255, 255, 255, 1);
     //display: none;
    
 
@@ -41,12 +41,12 @@
         }
 
         .message{
+            height: 90px;
             font-size: 16px;
             font-weight: 400;
             line-height: 19.2px;
             text-align:start;
-           
-            height: 90px;
+            margin-top: -24px;
             //border: 2px solid rgba(255, 255, 255, 1);
         }
     
@@ -215,7 +215,6 @@
     .aboutMe-picture{
         width: 800px;
         height: 500px;
-        top: 918px;
         top: 1067px;
 
         .about-me{
@@ -392,12 +391,10 @@
 @media (max-width: 490px) {
     .aboutMe-picture{
         position: absolute;
-        top: 918px;
-        top: 1067px;
         width: 342px;
         height: 524px;
         left: 20px;
-        
+        top: 1067px;
 
         .about-me{
             position: absolute;
@@ -451,6 +448,7 @@
         position: absolute;
       
         top: 918px;
+        height: 541px;
         width: 342px;
         left: 20px;
         
@@ -468,11 +466,10 @@
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 19.2px;
-                text-align: left;
-               
+                text-align: start;
                 height: 95px;
-              
                 margin-bottom: 60px;
+               // margin-left: 8px;
             }
             h2{
                 height: 108px;

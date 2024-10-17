@@ -1,13 +1,12 @@
 .my-skills1{
-    position: absolute;
-    height: 404px;
     width: 1339px;
+    height: 404px;
     top: 1779px;
     left: 100px;
-   
+    position: absolute;
     display: flex;
     justify-content: space-between;
-   // border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
     //display: none;
   
 
@@ -342,6 +341,7 @@
             color: white;
             justify-content: center;
             align-items: center;
+           
 
             >img{
                 width: 54px;
@@ -791,9 +791,7 @@
         width: 980px;
         height: 544px;
         top: 1779px;
-        top: 1739px;//-40px
-
-
+      
         .my-skills{
             padding-right: 0px;
             .skills-line{
@@ -810,7 +808,7 @@
     .my-skills1{
         width: 880px;
         height: 544px;
-        top: 1739px;//-40px
+        top: 1779px;
 
 
         .my-skills{
@@ -839,7 +837,9 @@
     .my-skills1{
         width: 800px;
         height: 940px;
-        top: 1694px;
+        top: 1570;
+        top: 1750px;
+     
       
 
 
@@ -882,16 +882,18 @@
                 font-size: 32px;
                 line-height: 38.4px;
                 color: white;
-                margin-left: 52px
+                margin-left: 52px;
+
                }
                .p2{
-                width: 410px;
+                width: 300px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
                 color: white;
+                border: 2px solid yellow;
                }
                .btn-talk{
                 width: 154px;
@@ -935,8 +937,7 @@
     .my-skills1{
         width: 800px;
         height: 940px;
-        top: 1694px;
-
+        
         .skills-icons2{
             display: block;
             display: flex;
@@ -1210,7 +1211,8 @@
     .my-skills1{
         width: 460px;
         height: 912px;
-        top: 1709px;
+        top: 1586px;
+        top: 1766px;
       
        
         .skills-icons2{
@@ -1301,8 +1303,10 @@
 @media (max-width: 590px){
     .my-skills1{
         width: 370px;
-        height: 1200px;
-        top: 1709px;
+      
+       
+       
+        
       
         .skills-icons2{
             display: block;
@@ -1310,11 +1314,12 @@
             flex-wrap: wrap;
             width: 268px;
             height: auto;
-            gap:40px 88px;
+            gap:40px 2px;
             margin: 20px 0;
             margin-bottom: 56px;
             margin-left: 52px; 
         }
+      
 
 
         .my-skills{
@@ -1404,7 +1409,9 @@
 @media (max-width: 490px){
     .my-skills1{
         width: 360px;
-        margin-left: -88px;
+        top: 1766px;
+        top: 1774px;
+        margin-left: -80px;
       
       
 
@@ -1415,7 +1422,7 @@
             flex-wrap: wrap;
             width: 268px;
             height: auto;
-            gap:40px 88px;
+            gap:40px 2px;
             margin: 20px 0;
             margin-bottom: 56px;
             margin-left: 52px; 
@@ -1499,7 +1506,8 @@
     .my-skills1{
         width: 360px;
         margin-left: -88px;
-        top: 1546px;
+      
+        top: 1559px;
       
       
 
@@ -1510,10 +1518,12 @@
             flex-wrap: wrap;
             width: 268px;
             height: auto;
-            gap:40px 88px;
+            gap:40px 2px;
             margin: 20px 0;
             margin-bottom: 56px;
             margin-left: 48px; 
+            justify-content: center;
+            align-items: center;
         }
 
 
@@ -1695,7 +1705,8 @@
     .my-skills1{
         width: 302px;
         margin-left: -92px;
-        top: 1585px;
+        top: 1584px;
+        
       
 
       

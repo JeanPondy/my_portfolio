@@ -1,19 +1,18 @@
 .profile{
-    display: flex;
-    //width: 99.9%;
-   //display: none;
-
-   .profile-pic {
-    position: absolute;
-    top: 181.62px;
-    width: 660.7px;
-    height: 671.38px;
-    //width: 1420.7px;
     height: 605.38px;
+    width: 1344px;
+    height: 646px;
+    top: 297px;
     left: 0px;
+    display: flex;
    
+   .profile-pic {
+    width: 710.7px;
+    height: 771.38px;
+    position: absolute;
+
     background-image: url('./../../../public/assets/img/shadows.png');
-    background-position: center top 0px; 
+    background-position: left 0px top 140px; 
     background-repeat: no-repeat;
     object-fit: none;
     background-size: 100%; 
@@ -24,10 +23,10 @@
         position: absolute;
         width: 646px;
         height: 705px;
-        width: 520px; /* Verkleinerte Breite */
-        height: 600px; /* Verkleinerte Höhe */
-        top: 5px;
-        left: 140px;
+        top: 106px;
+        width: 546px;
+        height: 625px;
+        top: 172px;
         left: 47px;
         gap: 0px;
         opacity: 0px;
@@ -39,13 +38,14 @@
 
   }
   .hero{
-    position: absolute;
-    
+
     width: 1344px;
     height: 646px;
     top: 297px;
+    position: absolute;
+    
   
-    //border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
 
     //border: 2px solid rgb(231, 206, 12);
     //display: none;
@@ -58,7 +58,7 @@
         left: 622px;
         gap: 35px;
         opacity: 0px;
-        //border: 2px solid rgb(198, 18, 18);
+        
         
       
 
@@ -376,9 +376,10 @@
             width: 365px;
             height: 239px;
            
-            top: 589px;
+            top: 579px; //muss
             //left: -600px;
             left: -470px;
+            border: 2px solid rgba(255, 255, 255, 1);
 
          
            
@@ -727,7 +728,8 @@
 
     .profile{
         height: 915.31px;
-       
+        height: 808px;
+      
       
         .profile-pic{
             position: absolute;
@@ -772,13 +774,14 @@
             top: 509px;
             //left: -600px;
             left: -620px;
-            
+   
 
             .iam-frontend{
                 position: absolute;
                 width: 340px;
                 margin-left: 20px;
                 margin-top: 16px;
+              
               
                 .iam {
                     margin-left: -66px;
