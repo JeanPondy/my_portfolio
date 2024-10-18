@@ -5,6 +5,7 @@
     height: 340px;
     gap: 35px;
    // border: 2px solid rgba(255, 255, 255, 1);
+   border: 2px solid rgb(243, 9, 9);
 
     >img{
         width: 620px;
@@ -144,7 +145,7 @@
             }
         }
 }
-@media (max-width: 1098px){
+/* @media (max-width: 1098px){
     .simple-crm{
         margin: 0px 0 0 0px;
         width: 880px;
@@ -186,7 +187,7 @@
             }
         }
 
-}
+} */
 @media (max-width: 1098px){
     .simple-crm{
         margin: 0px 0 0 0px;
@@ -244,8 +245,9 @@
          >img{
             width: 460px;//
             height: 230px;//
-            margin-top: -40px;
-            margin-bottom: 16px;
+            margin-bottom: 0px;
+            //border: 2px solid rgba(255, 255, 255, 1);
+            margin-top: 52px;
          }
      
          .simple-crm-info{
@@ -256,7 +258,9 @@
              width: 315px;
              margin-left: 0px;//
              align-items: center;
-           
+             //border: 2px solid rgb(243, 13, 232);
+             margin-top: -70px;
+             margin-top: -22px;
      
              h3{
                  width: 196px;
@@ -270,6 +274,7 @@
                  align-items: center;
                  justify-content: center;
                  margin-bottom: 24px;
+                 //border: 2px solid rgba(151, 71, 255, 1);
              }
             
 
@@ -279,7 +284,9 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 40px;
+                //border: 2px solid rgba(112, 230, 28, 1);
+                margin-top: -24px;
+                margin-top: -12px;
 
             }
             p{
@@ -287,8 +294,65 @@
                display: flex;
                align-items: center;
                justify-content: center;
-               text-align: justify;
-               margin-bottom: 96px;
+               text-align: center;
+               margin-bottom: 0px;
+               //border: 2px solid rgba(255, 255, 255, 1);
+               margin-top: -4px;
+
+
+            }
+            .buttons{
+                width: 375px;
+                height: 65.36px;
+                gap: 86px;
+                display: flex;
+                //align-items: center;
+               // border: 2px solid rgb(13, 194, 222);
+                height: 55.36px;
+                margin-top: 32px;
+               
+    
+                .btn-talk1{
+                    width: 152px;
+                    height: 58px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    padding: 15px 30px 15px 30px;
+                    gap: 10px;
+                    color: white;
+                    font-size: 23px;
+                    background: rgba(151, 71, 255, 1);
+                    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                
+                    &:hover{
+                        background: rgba(112, 230, 28, 1);
+                      
+                    }
+                }
+    
+                .btn-talk2{
+                    width: 137px;
+                    height: 58px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    padding: 15px 30px 15px 30px;
+                    gap: 10px;
+                    color: white;
+                    font-size: 23px;
+                    border-color:  rgba(112, 230, 28, 1);
+                    background: rgba(20, 29, 47, 1);
+                    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                  
+                
+                    &:hover{
+                        background: rgba(112, 230, 28, 1);
+                       
+                    }
+                }
+    
+    
             }
             }
         }
@@ -307,8 +371,9 @@
          >img{
             width: 460px;//
             height: 230px;//
-            margin-top: -40px;
-            margin-bottom: 16px;
+            margin-bottom: 0px;
+            margin-top: -48px;
+            margin-top: 52px;
          }
      
          .simple-crm-info{
@@ -319,6 +384,7 @@
              width: 315px;
              margin-left: 0px;//
              align-items: center;
+             margin-top: -22px;
            
      
              h3{
@@ -332,7 +398,7 @@
                  display: flex;
                  align-items: center;
                  justify-content: center;
-                 margin-bottom: 24px;
+              
              }
             
 
@@ -342,7 +408,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 40px;
+                margin-top: -12px;
+             
 
             }
             p{
@@ -350,8 +417,12 @@
                display: flex;
                align-items: center;
                justify-content: center;
-               text-align: justify;
-               margin-bottom: 96px;
+               text-align: center;
+               margin-top: -4px;
+            
+            }
+            .buttons{
+                margin-top: 32px;
             }
             }
         }
@@ -372,8 +443,10 @@
          >img{
             width: 460px;//
             height: 230px;//
-            margin-top: -40px;
-            margin-bottom: 16px;
+            margin-top: -48px;
+            margin-top: 52px;
+            margin-bottom: 0px;
+            
          }
      
          .simple-crm-info{
@@ -384,6 +457,7 @@
              width: 315px;
              margin-left: 0px;//
              align-items: center;
+             margin-top: -22px;
            
      
              h3{
@@ -407,7 +481,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 40px;
+                margin-bottom: 0px;
+                margin-top: -12px;
 
             }
             p{
@@ -415,8 +490,12 @@
                display: flex;
                align-items: center;
                justify-content: center;
-               text-align: justify;
-               margin-bottom: 96px;
+               text-align: center;
+               margin-bottom: 0px;
+               margin-top: 8px;
+            }
+            .buttons{
+                margin-top: 32px;
             }
             }
         }
@@ -436,8 +515,8 @@
          >img{
             width: 342px;//
             height: 213px;//
-            margin-top: -32px;
-            margin-bottom: 16px;
+            margin-top: 52px;
+            
          }
      
          .simple-crm-info{
@@ -448,6 +527,7 @@
              width: 315px;
              margin-left: 0px;//
              align-items: center;
+             margin-top: -22px;
            
      
              h3{
@@ -461,7 +541,7 @@
                  display: flex;
                  align-items: center;
                  justify-content: center;
-                 margin-bottom: 24px;
+              
              }
             
 
@@ -471,16 +551,18 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 64px;
+                margin-top: -12px;
+              
 
             }
             p{
-               width: 360px; 
+               width: 308px; 
                display: flex;
                align-items: center;
                justify-content: center;
                text-align: center;
-               margin-bottom: 96px;
+               margin-top: 8px;
+              
             }
             .buttons{
                 width: 339px;
@@ -489,6 +571,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 32px;
              
             }
 
@@ -510,8 +593,8 @@
          >img{
             width: 342px;//
             height: 213px;//
-            margin-top: -32px;
-            margin-bottom: 16px;
+            margin-top: 60px;
+        
          }
      
          .simple-crm-info{
@@ -522,6 +605,7 @@
              width: 315px;
              margin-left: 0px;//
              align-items: center;
+             margin-top: -20px;
            
      
              h3{
@@ -535,7 +619,7 @@
                  display: flex;
                  align-items: center;
                  justify-content: center;
-                 margin-bottom: 24px;
+               
                
              }
             
@@ -546,7 +630,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 64px;
+                margin-top: -12px;
+             
               
 
             }
@@ -556,7 +641,8 @@
                align-items: center;
                justify-content: center;
                text-align: center;
-               margin-bottom: 96px;
+               margin-top: 8px;
+             
              
             }
             .buttons{
@@ -566,6 +652,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 32px;
                
             }
 
@@ -587,8 +674,8 @@
          >img{
             width: 321px;//
             height: 213px;//
-            margin-top: -32px;
-            margin-bottom: 16px;
+            margin-top: 36px;
+          
          
          }
      
@@ -613,7 +700,7 @@
                  display: flex;
                  align-items: center;
                  justify-content: center;
-                 margin-bottom: 24px;
+              
                
              }
             
@@ -624,7 +711,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 64px;
+                margin-top: -12px;
+          
               
 
             }
@@ -634,7 +722,8 @@
                align-items: center;
                justify-content: center;
                text-align: center;
-               margin-bottom: 96px;
+               margin: 8px;
+            
            
             }
             .buttons{
@@ -644,6 +733,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 24px;
             
                
             }

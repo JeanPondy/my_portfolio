@@ -5,6 +5,7 @@
      gap: 35px;
      display: flex;
      //border: 2px solid rgb(22, 81, 218);
+     border: 2px solid rgb(243, 9, 9);
      
  
      >img{
@@ -232,7 +233,9 @@
          >img{
             width: 460px;//
             height: 230px;//
-            margin-top: -40px;//
+            //border: 2px solid rgba(255, 255, 255, 1);
+            margin-top: -50px;
+           
        
          }
      
@@ -240,10 +243,12 @@
      
              display: flex;
              flex-direction: column;
-             margin-top: 40px;
              width: 315px;
              margin-left: -0px;//
              align-items: center;
+             //border: 2px solid rgb(243, 13, 232);
+             margin-top: 10px;
+           
      
              h3{
                 width: 196px;
@@ -251,28 +256,88 @@
                 align-items: center;
                 justify-content: center;
                 margin-top: -32px;
+                //border: 2px solid rgba(151, 71, 255, 1);
                
             }
             h4{
                 width: 308px;
-                margin-bottom: 56px;
+                margin-bottom: 0px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                //border: 2px solid rgba(112, 230, 28, 1);
+                margin-top: -5px;
 
             }
             p{
-               width: 370px;
-               margin-bottom: 32px;
-               display: flex;
-               align-items: center;
-               justify-content: center;
-               text-align: justify; display: flex;
-               align-items: center;
-               justify-content: center;
-               text-align: justify;
-               margin-bottom: 100px;
+                width: 350px;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: justify; display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin-bottom: 0px;
+               // border: 2px solid rgba(255, 255, 255, 1);
+                margin-top: 8px;
+            
             }
+            .buttons{
+                width: 375px;
+                height: 65.36px;
+                gap: 86px;
+                display: flex;
+                //align-items: center;
+                //border: 2px solid rgb(13, 194, 222);
+                height: 55.36px;
+                margin-top: 32px;
+    
+                .btn-talk1{
+                    width: 152px;
+                    height: 58px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    padding: 15px 30px 15px 30px;
+                    gap: 10px;
+                    color: white;
+                    font-size: 23px;
+                    background: rgba(151, 71, 255, 1);
+                    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                
+                    &:hover{
+                        background: rgba(112, 230, 28, 1);
+                      
+                    }
+                }
+    
+                .btn-talk2{
+                    width: 137px;
+                    height: 58px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+                    padding: 15px 30px 15px 30px;
+                    gap: 10px;
+                    color: white;
+                    font-size: 23px;
+                    border-color:  rgba(112, 230, 28, 1);
+                    background: rgba(20, 29, 47, 1);
+                    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                
+                    &:hover{
+                        background: rgba(112, 230, 28, 1);
+                       
+                    }
+                }
+    
+    
+            }
+
+
+
             }
         }
 
@@ -293,7 +358,8 @@
          >img{
             width: 460px;//
             height: 230px;//
-            margin-top: -40px;//
+            margin-top: -60px;
+            
        
          }
      
@@ -305,13 +371,14 @@
              width: 315px;
              margin-left: -0px;//
              align-items: center;
+             margin-top: 10px;
      
              h3{
                 width: 196px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: -32px;
+            
                
             }
             h4{
@@ -320,19 +387,24 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: -4px;
 
             }
             p{
                width: 370px;
-               margin-bottom: 32px;
+               margin-bottom: 0px;
                display: flex;
                align-items: center;
                justify-content: center;
-               text-align: justify; display: flex;
+               text-align: justify;
                align-items: center;
                justify-content: center;
-               text-align: justify;
-               margin-bottom: 100px;
+               text-align: center;
+               margin-top: -48px;
+             
+            }
+            .buttons{
+                margin-top: 32px;
             }
             }
         }
@@ -357,7 +429,8 @@
          >img{
             width: 460px;//
             height: 230px;//
-            margin-top: -40px;//
+            margin-top: -60px;
+     
        
          }
      
@@ -369,13 +442,14 @@
              width: 315px;
              margin-left: -0px;//
              align-items: center;
+             margin-top: 10px;
      
              h3{
                 width: 196px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: -32px;
+              
                
             }
             h4{
@@ -388,15 +462,19 @@
             }
             p{
                width: 370px;
-               margin-bottom: 32px;
+               height: auto;
+               margin-bottom: 0px;
                display: flex;
                align-items: center;
                justify-content: center;
                text-align: justify; display: flex;
                align-items: center;
                justify-content: center;
-               text-align: justify;
-               margin-bottom: 100px;
+               text-align: center;
+            
+            }
+            .buttons{
+                margin-top: 32px;
             }
             }
         }
@@ -419,7 +497,8 @@
          >img{
             width: 342px;//
             height: 213px;//
-            margin-top: -40px;//
+            margin-top: -60px;
+         
        
          }
      
@@ -431,26 +510,26 @@
              width: 315px;
              margin-left: -0px;//
              align-items: center;
+             margin-top: 10px;
      
              h3{
                 width: 196px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: -32px;
+              
                
             }
             h4{
                 width: 308px;
-                margin-bottom: 64px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: -4px;
 
             }
             p{
                width: 360px;
-               margin-bottom: 32px;
                display: flex;
                align-items: center;
                justify-content: center;
@@ -459,7 +538,7 @@
                justify-content: center;
                //text-align: justify;
                text-align: center;
-               margin-bottom: 104px;
+            
             }
 
             .buttons{
@@ -469,6 +548,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 32px;
             }
 
 
@@ -497,7 +577,8 @@
          >img{
             width: 342px;//
             height: 213px;//
-            margin-top: -40px;//
+            margin-top: -40px;
+         
        
          }
      
@@ -509,18 +590,18 @@
              width: 315px;
              margin-left: -0px;//
              align-items: center;
+             margin-top: 10px;
      
              h3{
                 width: 196px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: -32px;
+            
                
             }
             h4{
                 width: 308px;
-                margin-bottom: 64px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -528,16 +609,14 @@
             }
             p{
                width: 290px;
-               margin-bottom: 32px;
                display: flex;
                align-items: center;
                justify-content: center;
-               text-align: justify; display: flex;
                align-items: center;
                justify-content: center;
-               //text-align: justify;
                text-align: center;
-               margin-bottom: 104px;
+               margin-top: -48px;
+             
             }
 
             .buttons{
@@ -548,6 +627,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 32px;
             }
 
 
@@ -571,30 +651,30 @@
          >img{
             width: 321px;//
             height: 213px;//
-            margin-top: -32px;//
+            margin-top: -60px;
+          
        
          }
      
          .dabubble-info{
-     
-             display: flex;
-             flex-direction: column;
-             margin-top: 40px;
-             width: 300px;
-             margin-left: -0px;//
-             align-items: center;
-     
-             h3{
-                width: 196px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-top: -32px;
-               
-            }
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            margin-left: -0px;//
+            align-items: center;
+            margin-top: 10px;
+    
+            h3{
+               width: 196px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+           
+              
+           }
+           
             h4{
                 width: 290px;
-                margin-bottom: 40px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -603,17 +683,12 @@
             }
             p{
                width: 290px;
-               height: 120px;
-            
+               height: auto;
                display: flex;
                align-items: center;
                justify-content: center;
-               text-align: justify; display: flex;
                align-items: center;
                justify-content: center;
-               //text-align: justify;
-               text-align: center;
-               margin-bottom: 88px;
            
             }
 
