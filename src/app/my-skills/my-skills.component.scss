@@ -6,7 +6,7 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    border: 2px solid rgba(255, 255, 255, 1);
+    //border: 2px solid rgba(255, 255, 255, 1);
     //display: none;
   
 
@@ -893,7 +893,8 @@
                 font-size: 16px;
                 line-height: 19.2px;
                 color: white;
-                border: 2px solid yellow;
+                margin-left: 80px;
+                //border: 2px solid yellow;
                }
                .btn-talk{
                 width: 154px;
@@ -977,7 +978,7 @@
                 margin-left: 52px
                }
                .p2{
-                width: 410px;
+                width: 300px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 400px;
@@ -990,7 +991,7 @@
                 height: 48px;
                 justify-content: center;
                 align-items: center;
-                margin-left: 140px;
+             
                 
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
@@ -1069,7 +1070,7 @@
                 margin-left: 52px
                }
                .p2{
-                width: 410px;
+                width: 300px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 400px;
@@ -1082,7 +1083,7 @@
                 height: 48px;
                 justify-content: center;
                 align-items: center;
-                margin-left: 140px;
+               
                 margin-top: 24px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
@@ -1161,7 +1162,7 @@
                 margin-left: 52px
                }
                .p2{
-                width: 410px;
+                width: 300px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 400px;
@@ -1174,7 +1175,7 @@
                 height: 48px;
                 justify-content: center;
                 align-items: center;
-                margin-left: 140px;
+              
                 margin-top: 0px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
@@ -1232,7 +1233,7 @@
             width: 390px;
             height: 143px;
             padding-left: 40px;
-           
+         
            
 
 
@@ -1240,26 +1241,32 @@
                 margin-top: -72px;
                 width: 350px;
                 height: 38px;
-              
                 padding-left: 48px;
                }
                h3{
-                width: 410px;
+                width: 360px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 700;
                 font-size: 32px;
                 line-height: 38.4px;
                 color: white;
-                margin-left: 52px
+                margin-left: 0px;
+          
+                //border: 2px solid orangered;
                }
                .p2{
-                width: 410px;
+                width: 300px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
+               /*  display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center; */
+                margin-left: 24px;
                 color: white;
                }
                .btn-talk{
@@ -1267,8 +1274,9 @@
                 height: 48px;
                 justify-content: center;
                 align-items: center;
-                margin-left: 132px;
+                
                 margin-top: 0px;
+                margin-left: 120px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
@@ -1350,7 +1358,7 @@
             
             }
                h3{
-                width: 370px;
+                width: 360px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 700;
@@ -1361,12 +1369,13 @@
                }
                .p2{
                 margin-top: -8px;
-                width: 360px;
+                width: 300px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
+                margin-left: 32px;
                 color: white;
                }
                .btn-talk{
@@ -1375,7 +1384,7 @@
                 justify-content: center;
                 align-items: center;
                 margin-left: 120px;
-                margin-top: 24px;
+                margin-top: 8px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
@@ -1456,12 +1465,13 @@
                }
                .p2{
                 margin-top: -8px;
-                width: 350px;
+                width: 300px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
+                margin-left: 8px;
                 color: white;
                }
                .btn-talk{
@@ -1470,7 +1480,7 @@
                 justify-content: center;
                 align-items: center;
                 margin-left: 96px;
-                margin-top: 32px;
+                margin-top: 16px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
@@ -1568,7 +1578,7 @@
                 justify-content: center;
                 align-items: center;
                 margin-left: 96px;
-                margin-top: 32px;
+                margin-top: 16px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
@@ -1650,6 +1660,7 @@
                 line-height: 38.4px;
                 color: white;
                 margin-left: 5px;
+                margin-top: 8px;
                
                }
                .p2{
@@ -1669,7 +1680,7 @@
                 justify-content: center;
                 align-items: center;
                 margin-left: 80px;
-                margin-top: 32px;
+                margin-top: 16px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
@@ -1750,7 +1761,8 @@
                 font-size: 24px;
                 line-height: 38.4px;
                 color: white;
-                margin-left: 5px;
+                margin-left: 12px;
+                
              
                }
                .p2{
@@ -1769,7 +1781,7 @@
                 justify-content: center;
                 align-items: center;
                 margin-left: 80px;
-                margin-top: 32px;
+                margin-top: 16px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
