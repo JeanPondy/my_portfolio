@@ -12,6 +12,11 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./contact.component.scss'] // Korrigiere "styleUrl" zu "styleUrls"
 })
 export class ContactComponent {
+
+ 
+  goToDatenschutzerklaerung() {
+    window.open('https://jean-pondy.com/privacypolicy/', '-blabk');
+  }
   http = inject(HttpClient);
 
   contactData = {
@@ -24,7 +29,7 @@ export class ContactComponent {
   mailTest = true;
 
   post = {
-    endPoint: 'https://deineDomain.de/sendMail.php',
+    endPoint: 'https://jean-pondy.com/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {

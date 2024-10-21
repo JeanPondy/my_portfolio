@@ -143,20 +143,23 @@
     color: rgba(255, 255, 255, 1);
     margin-top: 8px;
     display: none;
+   
+    
 
     
 
     .line{
-            width: 48px;
-            border-style: solid;
-            border-width: 1px;
-            color: rgba(112, 230, 28, 1);
-            margin-top: -8px;
-            opacity: 0; 
+           
             //transition: opacity 0.3s ease; 
 
             &:hover{
                 opacity: 1; 
+                width: 48px;
+                border-style: solid;
+                border-width: 1px;
+                color: rgba(112, 230, 28, 1);
+                margin-top: -8px;
+                opacity: 0; 
    
             }
 

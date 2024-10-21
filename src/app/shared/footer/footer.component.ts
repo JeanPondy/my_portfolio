@@ -9,6 +9,10 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  goToImprint(){
+    window.open('https://jean-pondy.com/imprint/', '-blabk');
+  }
+
   goToLinkedin(){
     window.open('https://www.linkedin.com/in/jean-pondy-9244b0160/', '-blabk');
   }

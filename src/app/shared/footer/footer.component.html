@@ -8,7 +8,7 @@
       alt=""
     />
 
-    <div class="legal line">
+    <div (click)="goToImprint()" class="legal line">
       <p>Legal Notice</p>
       <div class="line"></div>
     </div>
@@ -38,8 +38,9 @@
       alt=""
     />
   </div>
-  <div class="legal2 line">
-    <p>Legal Notice</p>
-    <div class="line"></div>
+  <div (click)="goToImprint()" class="legal2 line">
+    <div class="line">
+      <p>Legal Notice</p>
+    </div>
   </div>
 </div>
