@@ -13,20 +13,21 @@ import { RouterModule } from '@angular/router';
 })
 export class ContactComponent {
 
- 
   goToDatenschutzerklaerung() {
-    window.open('https://jean-pondy.com/privacypolicy/', '-blabk');
+    window.open('https://jean-pondy.com/privacypolicy/', '_blank'); // '_blank' korrekt schreiben
   }
+
   http = inject(HttpClient);
 
   contactData = {
     name: '',
     email: '',
     message: '',
-    privacyPolicy: '',
+    privacyPolicy: false, // Verwende boolean für die Datenschutzerklärung
   };
 
   mailTest = true;
+  feedbackMessage: string | null = null; // Für das Feedback-Overlay
 
   post = {
     endPoint: 'https://jean-pondy.com/sendMail.php',
@@ -40,20 +41,35 @@ export class ContactComponent {
   };
 
   onSubmit(ngForm: NgForm) {
+    // Überprüfen, ob die Datenschutzerklärung akzeptiert wurde
+    if (!this.contactData.privacyPolicy) {
+      this.feedbackMessage = "Please accept the privacy policy.";
+      return;
+    }
+
+    // Formular gesendet und validiert
     if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
+            this.feedbackMessage = "Your message has been sent successfully!";
             ngForm.resetForm();
           },
           error: (error) => {
+            this.feedbackMessage = "An error occurred while sending the message.";
             console.error(error);
           },
           complete: () => console.info('send post complete'),
         });
     } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
+      this.feedbackMessage = "Your message has been sent successfully (test mode).";
       ngForm.resetForm();
     }
+  }
+
+  // Methode zum Schließen des Overlays
+  closeFeedback() {
+    this.feedbackMessage = null; // Setze das Feedback zurück, um das Overlay zu schließen
   }
 
   activeSection: string = ''; // Variable, um den aktiven Abschnitt zu verfolgen

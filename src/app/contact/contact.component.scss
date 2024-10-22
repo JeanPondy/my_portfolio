@@ -257,6 +257,47 @@ input[type="checkbox"] {
   .btn-submit{
     width: 200px;
   }
+
+
+
+  /* Overlay styles */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlay-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.overlay-content p {
+  margin-bottom: 20px;
+}
+
+.overlay-content button {
+  padding: 10px 20px;
+  background: rgba(151, 71, 255, 1); 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.overlay-content button:hover {
+  background:  rgba(112, 230, 28, 1);  
+}
+
   
 
   /* --------------reserve */

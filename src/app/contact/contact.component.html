@@ -14,7 +14,6 @@
     </div>
     <div class="contact-area">
       <div class="container">
-        <!-- Form Definition -->
         <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
           <!-- Name -->
           <label for="name"></label>
@@ -111,6 +110,14 @@
             [disabled]="!contactForm.form.valid || !contactData.privacyPolicy"
           />
         </form>
+
+        <!-- Feedback Modal -->
+        <div class="overlay" *ngIf="feedbackMessage">
+          <div class="overlay-content">
+            <p>{{ feedbackMessage }}</p>
+            <button (click)="closeFeedback()">Close</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
