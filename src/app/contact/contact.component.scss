@@ -238,22 +238,21 @@ input[type="checkbox"] {
   input[type="checkbox"]:checked::after {
     content: ''; /* Leeres Pseudo-Element für das Häkchen */
     position: absolute; /* Positioniert es relativ zur Checkbox */
-    top: 5px; /* Positioniert es innerhalb der Checkbox */
-    left: 5px; /* Positioniert es innerhalb der Checkbox */
-    width: 2px; /* Breite des Häkchens */
-    height: 10px; /* Höhe des Häkchens */
-    background-color:  rgba(112, 230, 28, 1); /* Häkchen-Farbe */
-    transform: rotate(45deg); /* Häkchen drehen */
+    top: 0px; /* Positioniert es innerhalb der Checkbox */
+    left: 0px; /* Positioniert es innerhalb der Checkbox */
+    width: 100%; /* Breite des Häkchens */
+    height: 100%; /* Höhe des Häkchens */
+    background-image: url('./../../../public/assets/img/hack.png');
+    background-size: cover; /* Passt das Bild an die Checkbox an */
+    background-position: center; /* Zentriert das Bild */
+    //background-color:  rgba(112, 230, 28, 1); /* Häkchen-Farbe */
+    //transform: rotate(45deg); /* Häkchen drehen */
+    
   }
   
   input[type="checkbox"]:checked::before {
-    content: ''; /* Leeres Pseudo-Element für das Häkchen */
-    position: absolute; /* Positioniert es relativ zur Checkbox */
-    top: 5px; /* Positioniert es innerhalb der Checkbox */
-    left: 8px; /* Positioniert es innerhalb der Checkbox */
-    width: 2px; /* Höhe des Häkchens */
-    height: 10px; /* Breite des Häkchens */
-    background-color:  rgba(112, 230, 28, 1); /* Häkchen-Farbe */
+    content: none; /* Leeres Pseudo-Element für das Häkchen */
+   
   }
   .btn-submit{
     width: 200px;
