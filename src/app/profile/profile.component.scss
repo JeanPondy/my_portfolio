@@ -127,12 +127,14 @@
                 background: rgba(112, 230, 28, 1);
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
                 cursor: pointer;
+                border: none;
             
                 &:hover{
                     
                     background: rgba(151, 71, 255, 1);
                     scale: 1.1;
                     cursor: pointer;
+                 
             
                 }
             
