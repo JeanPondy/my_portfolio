@@ -1,15 +1,15 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
-import { HttpClient, HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
+import { HttpClient, HttpClientModule } from '@angular/common/http'; 
 import { RouterModule } from '@angular/router'; 
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, FormsModule, HttpClientModule,RouterModule  ], // HttpClientModule hier importieren
+  imports: [CommonModule, FormsModule, HttpClientModule, RouterModule],
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss'] // Korrigiere "styleUrl" zu "styleUrls"
+  styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent {
 
@@ -26,17 +26,17 @@ export class ContactComponent {
     privacyPolicy: false, // Verwende boolean für die Datenschutzerklärung
   };
 
-  mailTest = true;
+  mailTest = false;
   feedbackMessage: string | null = null; // Für das Feedback-Overlay
 
   post = {
-    endPoint: 'https://jean-pondy.com/sendMail.php',
-    body: (payload: any) => JSON.stringify(payload),
+    endPoint: 'https://jean-pondy.com/jeanpondy/sendMail.php',
+    body: (payload: { name: string; email: string; message: string; privacyPolicy: boolean }) => JSON.stringify(payload),
     options: {
       headers: {
-        'Content-Type': 'text/plain',
-        responseType: 'text',
+        'Content-Type': 'application/json', // Korrigierter Content-Type für JSON-Daten
       },
+      responseType: 'text' as const // Setze den Response-Typ hier, nicht in den Headern
     },
   };
 
@@ -49,7 +49,7 @@ export class ContactComponent {
 
     // Formular gesendet und validiert
     if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
-      this.http.post(this.post.endPoint, this.post.body(this.contactData))
+      this.http.post(this.post.endPoint, this.post.body(this.contactData), this.post.options)
         .subscribe({
           next: (response) => {
             this.feedbackMessage = "Your message has been sent successfully!";
