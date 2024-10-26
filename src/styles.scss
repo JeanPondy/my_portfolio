@@ -71,8 +71,8 @@ body {
   height: 100vh;
   background-image: url('./../public/assets/img/shapeheropage.png');
   background-repeat: no-repeat;
-  background-position: left 159.5px top 370.6px;
-  background-size: 1520px 1071px;
+  background-position: left 0px top 370.6px;
+  background-size: 1920px 1071px;
   z-index: -1;
 }
 
@@ -199,8 +199,9 @@ body {
     height: 100vh;
     background-image: url('./../public/assets/img/shapeheropage.png');
     background-repeat: no-repeat;
-    background-position: left 159.5px top 377.6px;
-    background-size: 1280px 971.56px;
+    background-position: left 159.5px top 379.6px;
+    background-position: left 0px top 379.6px;
+    background-size: 1480px 971.56px;
     z-index: -1;
   }
   .photo-profile-bg{
@@ -209,9 +210,9 @@ body {
     height: 100vh;
     background-image: url('./../public/assets/img/photo-shadows.png');
     background-repeat: no-repeat;
-    background-position: left 2px top 221.62px;
+    background-position: left 2px top 141.62px;
     //background-size: 960px 620px; /* Breite x Höhe */
-    background-size: 690.7px 671.38px;
+    background-size: 690.7px 641.38px;
     z-index: -10;
   } 
  
@@ -293,17 +294,70 @@ body {
 } 
 @media (max-width: 1060px) {
   body{
-    //height: 7457px;
-    height: 6700px;
-    background-image: url('./../public/assets/img/shapeheropage.png');
-    background-repeat: no-repeat;
-    background-position: center top 210px; /* Position des Hintergrundbildes */
+   
 
     .content-wrapper {
       width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
       max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
       height: 6778px; 
      
+    }
+    .shape-hero {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('./../public/assets/img/shapeheropage.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 220.6px;
+      background-size: 1380px 946.56px;
+      z-index: -1;
+    }
+    .photo-profile-bg{
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('./../public/assets/img/photo-shadows.png');
+      background-repeat: no-repeat;
+      background-position: left 2px top 101.62px;
+      //background-size: 960px 620px; /* Breite x Höhe */
+      background-size: 690.7px 561.38px;
+      z-index: -10;
+    } 
+    .about-bg{
+      position: absolute;
+      width: 100vw;
+      height: 200vh;
+      background-image: url('./../public/assets/img/purple-shadow-R2.png');
+      background-repeat: no-repeat;
+      background-position: right 0px top 820px;
+      z-index: -1;
+    }
+    .skills-bg{
+      position: absolute;
+      width: 100vw;
+      height: 400vh;
+      background-image: url('./../public/assets/img/green-shadow-2L.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 1920px;
+      z-index: -1;
+    }
+    .p-folio-bg{
+      position: absolute;
+      width: 100vw;
+      height: 400vh;
+      background-image: url('./../public/assets/img/purple-shadow-L3.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 3200px;
+      z-index: -1;
+    }
+    .message-bg{
+      position: absolute;
+      width: 100vw;
+      height: 627.5vh;
+      background-image: url('./../public/assets/img/purple-shadow-L4.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 6300px;
+      z-index: -1;
     }
   }
  /*  .ober{
@@ -351,6 +405,15 @@ body{
     height: 7844px; 
    
   }
+  .message-bg{
+    position: absolute;
+    width: 100vw;
+    height: 726vh;
+    background-image: url('./../public/assets/img/purple-shadow-L4.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 7400px;
+    z-index: -1;
+  }
 }
 
 } 
@@ -362,15 +425,19 @@ body{
       height: 7908px; 
      
     }
+    .message-bg{
+      position: absolute;
+      width: 100vw;
+      height: 732vh;
+      background-image: url('./../public/assets/img/purple-shadow-L4.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 7650px;
+      z-index: -1;
+    }
+    
   }
  
-  .ober{
-    .big-bg {
-      margin-top: 390px;
-      background-size: 155%; /* Bild um 150% vergrößern */
-   
-    }
-  }
+  
 } 
 @media (max-width: 880px) {
 
@@ -380,6 +447,15 @@ body{
     max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
     height: 7864px; 
    
+  }
+  .message-bg{
+    position: absolute;
+    width: 100vw;
+    height: 728vh;
+    background-image: url('./../public/assets/img/purple-shadow-L4.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 7650px;
+    z-index: -1;
   }
  }
   
@@ -405,31 +481,70 @@ body{
       height: 7880px; 
      
     }
-   }
-  
-  .big-bg2 {
-    margin-top: 1259px;
-   
-    background-repeat: no-repeat;
-    width: 1205.31px;
-    height: 6000px;
-    margin-left: -320px;
-    background-size: 99.9%;
-    display: none;
+
+    .shape-hero {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('./../public/assets/img/shapeheropage.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 214.6px;
+      background-size: 1380px 951.56px;
+      z-index: -1;
+    }
+    .photo-profile-bg{
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('./../public/assets/img/photo-shadows.png');
+      background-repeat: no-repeat;
+      background-position: left 2px top 121.62px;
+      //background-size: 960px 620px; /* Breite x Höhe */
+      background-size: 580.7px 561.38px;
+      z-index: -10;
+    } 
+    .about-bg{
+      position: absolute;
+      width: 100vw;
+      height: 200vh;
+      background-image: url('./../public/assets/img/purple-shadow-R2.png');
+      background-repeat: no-repeat;
+      background-position: right 0px top 820px;
+      z-index: -1;
+    }
+    .skills-bg{
+      position: absolute;
+      width: 100vw;
+      height: 400vh;
+      background-image: url('./../public/assets/img/green-shadow-2L.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 1920px;
+      z-index: -1;
+    }
+    .p-folio-bg{
+      position: absolute;
+      width: 100vw;
+      height: 400vh;
+      background-image: url('./../public/assets/img/purple-shadow-L3.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 3200px;
+      z-index: -1;
+    }
+    .message-bg{
+      position: absolute;
+      width: 100vw;
+      height: 729.5vh;
+      background-image: url('./../public/assets/img/purple-shadow-L4.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 7600px;
+      z-index: -1;
+    }
+  }
+
 }
-.ober{
+
  
-  .profile-pic {
-    height: 650px;
-   // width: 95%;
-    width: 746px;
-    margin-left: -80px;
-    
-   
-   }
-}
- 
-}
+
 @media (max-width: 590px){
   body{
     .content-wrapper {
@@ -465,12 +580,25 @@ body{
 }
 @media (max-width: 570px){
 
+ body{
   .content-wrapper {
     width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
     max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
-    height: 7192px; 
+    height: 7882px; 
   
   }
+  .photo-profile-bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../public/assets/img/photo-shadows.png');
+    background-repeat: no-repeat;
+    background-position: left 2px top 121.62px;
+    //background-size: 960px 620px; /* Breite x Höhe */
+    background-size: 540.7px 561.38px;
+    z-index: -10;
+  }
+ } 
   
 
   .big-bg2 {
@@ -505,29 +633,69 @@ body{
       height: 7882px; 
      
     }
+
+    .shape-hero {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('./../public/assets/img/shapeheropage.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 214.6px;
+      background-size: 1380px 841.56px;
+      z-index: -1;
+    }
+    .photo-profile-bg{
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('./../public/assets/img/photo-shadows.png');
+      background-repeat: no-repeat;
+      background-position: left 2px top 121.62px;
+      //background-size: 960px 620px; /* Breite x Höhe */
+      background-size: 420.7px 521.38px;
+      z-index: -10;
+     
+    } 
+    .about-bg{
+      position: absolute;
+      width: 100vw;
+      height: 200vh;
+      background-image: url('./../public/assets/img/purple-shadow-R2.png');
+      background-repeat: no-repeat;
+      background-position: right 0px top 820px;
+      z-index: -1;
+    }
+    .skills-bg{
+      position: absolute;
+      width: 100vw;
+      height: 400vh;
+      background-image: url('./../public/assets/img/green-shadow-2L.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 1920px;
+      z-index: -1;
+    }
+    .p-folio-bg{
+      position: absolute;
+      width: 100vw;
+      height: 400vh;
+      background-image: url('./../public/assets/img/purple-shadow-L3.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 3200px;
+      z-index: -1;
+    }
+    .message-bg{
+      position: absolute;
+      width: 100vw;
+      height: 729.5vh;
+      background-image: url('./../public/assets/img/purple-shadow-L4.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 7600px;
+      z-index: -1;
+    }
+  
   }
 
-  .big-bg2 {
-    margin-top: 1259px;
-   
-    background-repeat: no-repeat;
-    width: 1205.31px;
-    height: 6000px;
-    margin-left: -320px;
-    background-size: 99.9%;
-    display: none;
-}
-.ober{
  
-  .profile-pic {
-    height: 650px;
-   // width: 95%;
-    width: 746px;
-    margin-left: -230px;
-    
-   
-   }
-}
  
 }
 @media (max-width: 400px){
@@ -538,6 +706,65 @@ body{
     max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
     height: 7380px; 
   }
+  .shape-hero {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../public/assets/img/shapeheropage.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 216.6px;
+    background-size: 1380px 841.56px;
+    z-index: -1;
+  }
+  .photo-profile-bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../public/assets/img/photo-shadows.png');
+    background-repeat: no-repeat;
+    background-position: left 2px top 121.62px;
+    //background-size: 960px 620px; /* Breite x Höhe */
+    background-size: 400.7px 521.38px;
+    z-index: -10;
+   
+  }  
+  .about-bg{
+    position: absolute;
+    width: 100vw;
+    height: 200vh;
+    background-image: url('./../public/assets/img/purple-shadow-R2.png');
+    background-repeat: no-repeat;
+    background-position: right 0px top 820px;
+    z-index: -1;
+  }
+  .skills-bg{
+    position: absolute;
+    width: 100vw;
+    height: 400vh;
+    background-image: url('./../public/assets/img/green-shadow-2L.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 1920px;
+    z-index: -1;
+  }
+  .p-folio-bg{
+    position: absolute;
+    width: 100vw;
+    height: 400vh;
+    background-image: url('./../public/assets/img/purple-shadow-L3.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 3200px;
+    z-index: -1;
+  }
+  .message-bg{
+    position: absolute;
+    width: 100vw;
+    height: 683vh;
+    background-image: url('./../public/assets/img/purple-shadow-L4.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 7140px;
+    z-index: -1;
+  }
+
  }
 
   
@@ -576,6 +803,66 @@ body{
     
       
      
+    }
+  
+    .shape-hero {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('./../public/assets/img/shapeheropage.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 220.6px;
+      background-size: 1380px 821.56px;
+      z-index: -1;
+    }
+    .photo-profile-bg{
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('./../public/assets/img/photo-shadows.png');
+      background-repeat: no-repeat;
+      background-position: left 2px top 121.62px;
+      //background-size: 960px 620px; /* Breite x Höhe */
+      background-size: 380.7px 511.38px;
+      z-index: -10;
+     
+    }  
+    .about-bg{
+      position: absolute;
+      width: 100vw;
+      height: 200vh;
+      background-image: url('./../public/assets/img/purple-shadow-R2.png');
+      background-repeat: no-repeat;
+      background-position: right 0px top 820px;
+      z-index: -1;
+    }
+    .skills-bg{
+      position: absolute;
+      width: 100vw;
+      height: 400vh;
+      background-image: url('./../public/assets/img/green-shadow-2L.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 1920px;
+      z-index: -1;
+    }
+    .p-folio-bg{
+      position: absolute;
+      width: 100vw;
+      height: 400vh;
+      background-image: url('./../public/assets/img/purple-shadow-L3.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 3200px;
+      z-index: -1;
+    }
+   
+    .message-bg{
+      position: absolute;
+      width: 100vw;
+      height: 714vh;
+      background-image: url('./../public/assets/img/purple-shadow-L4.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 7500px;
+      z-index: -1;
     }
 
   
@@ -618,6 +905,65 @@ body{
       max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
       height: 7800px; /* Höhe des Inhalts */
       height: 7742px; 
+    }
+
+    .shape-hero {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('./../public/assets/img/shapeheropage.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 195.6px;
+      background-size: 740px 801.56px;
+      z-index: -1;
+    }
+    .photo-profile-bg{
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('./../public/assets/img/photo-shadows.png');
+      background-repeat: no-repeat;
+      background-position: left 2px top 121.62px;
+      //background-size: 960px 620px; /* Breite x Höhe */
+      background-size: 350.7px 480.38px;
+      z-index: -10;
+     
+    }  
+    .about-bg{
+      position: absolute;
+      width: 100vw;
+      height: 200vh;
+      background-image: url('./../public/assets/img/purple-shadow-R2.png');
+      background-repeat: no-repeat;
+      background-position: right 0px top 820px;
+      z-index: -1;
+    }
+    .skills-bg{
+      position: absolute;
+      width: 100vw;
+      height: 400vh;
+      background-image: url('./../public/assets/img/green-shadow-2L.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 1920px;
+      z-index: -1;
+    }
+    .p-folio-bg{
+      position: absolute;
+      width: 100vw;
+      height: 400vh;
+      background-image: url('./../public/assets/img/purple-shadow-L3.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 3200px;
+      z-index: -1;
+    }
+    .message-bg{
+      position: absolute;
+      width: 100vw;
+      height: 717vh;
+      background-image: url('./../public/assets/img/purple-shadow-L4.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 7540px;
+      z-index: -1;
     }
   
   
