@@ -6,6 +6,52 @@ body {
 }
 
 
+.photo-profile-bg{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./../public/assets/img/photo-shadows.png');
+  background-repeat: no-repeat;
+  background-position: left 0px top 160px;
+  background-size: 960px 700px; /* Breite x Höhe */
+  z-index: -100;
+}
+.about-bg{
+  position: absolute;
+  width: 100vw;
+  height: 200vh;
+  background-image: url('./../public/assets/img/purple-shadow-R2.png');
+  background-repeat: no-repeat;
+  background-position: right 0px top 820px;
+  z-index: -1;
+}
+.skills-bg{
+  position: absolute;
+  width: 100vw;
+  height: 400vh;
+  background-image: url('./../public/assets/img/green-shadow-2L.png');
+  background-repeat: no-repeat;
+  background-position: left 0px top 1920px;
+  z-index: -1;
+}
+.p-folio-bg{
+  position: absolute;
+  width: 100vw;
+  height: 400vh;
+  background-image: url('./../public/assets/img/purple-shadow-L3.png');
+  background-repeat: no-repeat;
+  background-position: left 0px top 3200px;
+  z-index: -1;
+}
+.message-bg{
+  position: absolute;
+  width: 100vw;
+  height: 567vh;
+  background-image: url('./../public/assets/img/purple-shadow-L4.png');
+  background-repeat: no-repeat;
+  background-position: left 0px top 5600px;
+  z-index: -1;
+}
 
 .background-images {
   position: absolute;
@@ -25,7 +71,8 @@ body {
   height: 100vh;
   background-image: url('./../public/assets/img/shapeheropage.png');
   background-repeat: no-repeat;
-  background-position: right 0px top 220px;
+  background-position: left 159.5px top 370.6px;
+  background-size: 1520px 1071px;
   z-index: -1;
 }
 
@@ -92,51 +139,53 @@ body {
 
 
 /*--------------------------------responsive */
-
-/*--------------------------------responsive */
-
-/* @media (max-width: 1669px) {
-  body{
-    height: 6083.17px;
+@media (max-width: 1669px) {
+  .photo-profile-bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../public/assets/img/photo-shadows.png');
+    background-repeat: no-repeat;
+    background-position: left 159.5px top 377.6px;
+  
   }
-  .ober{
-    .big-bg {
-      //margin-top: 488px;
-      
-     // background-image: url("./../public/assets/img/background-shapes.png");
-      background-repeat: no-repeat;
-      width: 2550.73px;
-      height: 5710.77px;
-      margin-top:416px;
-    
-     
-    }
+  .photo-profile-bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../public/assets/img/photo-shadows.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 160px;
+    background-size: 960px 700px; /* Breite x Höhe */
+    z-index: -100;
   }
- 
-}
-@media (max-width: 1480px) {
-  body{
-    height: 6083.17px;
-  }
-  .ober{
-    .big-bg {
-      //margin-top: 488px;
-      
-     // background-image: url("./../public/assets/img/background-shapes.png");
-      background-repeat: no-repeat;
-      width: 2550.73px;
-      height: 5710.77px;
-      margin-top:416px;
-    
-     
-    }
-  }
-  .profile-pic > img {
-    width: 646px;
-    height: 705px;
+  .shape-hero {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../public/assets/img/shapeheropage.png');
+    background-repeat: no-repeat;
+    background-position: left 159.5px top 364.6px;
+    background-size: 1520px 1071px;
+    z-index: -1;
   }
 }
- */
+@media (max-width: 1520px) {
+  .photo-profile-bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../public/assets/img/photo-shadows.png');
+    background-repeat: no-repeat;
+    background-position: left 12px top 221.62px;
+    //background-size: 960px 620px; /* Breite x Höhe */
+    background-size: 690.7px 671.38px;
+    z-index: -10;
+  }  
+
+}
+
+
  @media (max-width: 1440px) {
   .content-wrapper {
     width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
@@ -144,18 +193,30 @@ body {
     height: 6119px; 
     
   }
-
-  .ober{
-    .big-bg {
-      //margin-top: 488px;
-      margin-top:488px;
-     // background-image: url("./../public/assets/img/background-shapes.png");
-      background-repeat: no-repeat;
-      width: 2550.73px;
-      height: 5710.77px;
-      background-size: 100%; /* Bild um 150% vergrößern */
-    }
+  .shape-hero {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../public/assets/img/shapeheropage.png');
+    background-repeat: no-repeat;
+    background-position: left 159.5px top 377.6px;
+    background-size: 1280px 971.56px;
+    z-index: -1;
   }
+  .photo-profile-bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./../public/assets/img/photo-shadows.png');
+    background-repeat: no-repeat;
+    background-position: left 2px top 221.62px;
+    //background-size: 960px 620px; /* Breite x Höhe */
+    background-size: 690.7px 671.38px;
+    z-index: -10;
+  } 
+ 
+
+
 } 
 @media (max-width: 1365px) {
   .content-wrapper {
@@ -186,16 +247,14 @@ body {
     
   }
 
-  .ober{
-    .big-bg {
-      //margin-top: 488px;
-      margin-top:488px;
-     // background-image: url("./../public/assets/img/background-shapes.png");
-      background-repeat: no-repeat;
-      width: 2550.73px;
-      height: 5710.77px;
-      background-size: 100%; /* Bild um 150% vergrößern */
-    }
+  .message-bg{
+    position: absolute;
+    width: 100vw;
+    height: 594vh;
+    background-image: url('./../public/assets/img/purple-shadow-L4.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 5900px;
+    z-index: -1;
   }
 } 
 

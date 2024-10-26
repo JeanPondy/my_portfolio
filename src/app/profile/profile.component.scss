@@ -11,12 +11,12 @@
     height: 771.38px;
     position: absolute;
 
-    background-image: url('./../../../public/assets/img/shadows.png');
+    //background-image: url('./../../../public/assets/img/shadows.png');
     background-position: left 0px top 140px; 
     background-repeat: no-repeat;
     object-fit: none;
     background-size: 100%; 
-  // border: 2px solid rgba(255, 255, 255, 1);
+    //border: 2px solid rgba(255, 255, 255, 1);
 
    
       .p-pic{
@@ -25,16 +25,20 @@
         height: 705px;
         top: 106px;
         width: 546px;
-        height: 625px;
-        top: 172px;
+        height: 690px;
+       // top: 172px;
         left: 47px;
         gap: 0px;
         opacity: 0px;
+        z-index: -2;
         //display: none;
       
         //border: 2px solid rgba(255, 255, 255, 1);
+        
 
     }
+  
+
 
   }
   .hero{
@@ -111,34 +115,28 @@
                 // border: 2px solid  rgba(151, 71, 255, 1);
                  //display: none;
              }
-             .btn-talk{
+             .btn-talk {
                 width: 165px;
                 height: 58px;
-               
                 margin-left: -480px;
-               
                 border-radius: 10px;
-                padding: 15px 30px 15px 30px;
+                padding: 15px 30px;
                 gap: 10px;
                 position: absolute;
                 color: white;
                 margin-top: -24px;
-             
                 background: rgba(112, 230, 28, 1);
-                box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
                 cursor: pointer;
                 border: none;
-            
-                &:hover{
-                    
-                    background: rgba(151, 71, 255, 1);
-                    scale: 1.1;
-                    cursor: pointer;
-                 
-            
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                box-shadow: none;
+                outline: none;
+                &:hover {
+                  background: rgba(151, 71, 255, 1);
+                  transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                  cursor: pointer;
                 }
-            
-            }
+              }
             
         }
       
@@ -229,7 +227,68 @@
 
 
 /* ------------------------------responsive */
+@media (max-width: 1440px) {
 
+   
+    .profile{
+        .profile-pic {
+            width: 710.7px;
+            height: 771.38px;
+            position: absolute;
+        
+            //background-image: url('./../../../public/assets/img/shadows.png');
+            background-position: left 0px top 140px; 
+            background-repeat: no-repeat;
+            object-fit: none;
+            background-size: 100%; 
+            //border: 2px solid rgba(255, 255, 255, 1);
+        
+           
+              .p-pic{
+                position: absolute;
+                width: 646px;
+                height: 705px;
+                top: 106px;
+                width: 546px;
+                height: 660px;
+               // top: 172px;
+                left: 47px;
+                gap: 0px;
+                opacity: 0px;
+                z-index: -2;
+                //display: none;
+              
+                //border: 2px solid rgba(255, 255, 255, 1);
+                
+        
+            }
+          
+        
+        
+          }
+
+        .hero{
+            width: 1300px;
+
+            .iam-frontend{
+                width: 658px;
+                .name-beruf{
+                    .btn-talk{
+                        margin-left: -424px;
+                    }
+                }
+            }
+        }
+        .references{
+
+            .scroll-down{
+                left: 1246px;
+                left: 1146px;
+            }
+        }
+        
+    }
+} 
 @media (max-width: 1350px) {
 
    
@@ -342,7 +401,7 @@
             left: 0px;
             //padding-left: 80px;
             
-            background-image: url('./../../../public/assets/img/shadows.png');
+            //background-image: url('./../../../public/assets/img/shadows.png');
             background-position: left -8px top -50px; 
             background-size: 100%; 
             background-repeat: no-repeat;
@@ -415,7 +474,7 @@
             left: 0px;
             //padding-left: 80px;
             
-            background-image: url('./../../../public/assets/img/shadows.png');
+            //background-image: url('./../../../public/assets/img/shadows.png');
             background-position: left -8px top -50px; 
             background-size: 100%; 
             background-repeat: no-repeat;
