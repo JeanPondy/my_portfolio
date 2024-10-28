@@ -31,6 +31,7 @@
         gap: 0px;
         opacity: 0px;
         z-index: -2;
+     
         
       
         //display: none;
@@ -44,6 +45,7 @@
 
   }
   .hero{
+    font-family: poppins;
 
     width: 1344px;
     height: 646px;
@@ -81,26 +83,29 @@
             margin-left: -48px;
            margin-top: 48px;
            margin-bottom: 44px;
-            //border: 2px solid rgba(255, 255, 255, 1);
+           //border: 2px solid rgba(255, 255, 255, 1);
           
           
         }
       
         .name-beruf{
-           
+           font-family: poppins;
             height: 172px;
             margin-left: 72px;
-            margin-top: -154px;
+            margin-top: -160px;
             //border: 2px solid rgba(255, 255, 255, 1);
             text-align: end;
 
             .name{
-                width: 490px;
+                font-family: poppins;
+                width: 530px;
                 height: 108px;
                 font-weight: 700;
                 font-size: 90px;
                 line-height: 108px;
                 color: rgba(255, 255, 255, 1);
+                text-align: left;
+               
                 //border: 2px solid rgba(255, 255, 255, 1);
               
             }
@@ -197,7 +202,7 @@
         position: absolute;
         left: 1316px;
         left: 1246px;
-        width: 133px;
+        width: 160px;
         height: 28px;
         font-family: Poppins;
         font-weight: 400;
@@ -604,13 +609,14 @@
                 height: 448.11px; */
             
                width: 310.61px;
-               height: 448.11px;
+               height: 748.11px;
               
-             
+             top: -16px;
                left: 40px;
                gap: 0px;
                opacity: 0px;
                //display: none;
+               object-fit: contain;
           
 
             }
@@ -864,13 +870,14 @@
                 height: 448.11px; */
             
                width: 280.61px;
-               height: 408.11px;
-             
-             
+               height: 708.11px;
+               top: -10px;
                left: 8px;
                gap: 0px;
                opacity: 0px;
                //display: none;
+               object-fit: contain;
+            
               
 
             }
