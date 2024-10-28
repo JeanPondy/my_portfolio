@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { Component, inject, ElementRef, AfterViewInit } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http'; 
 import { RouterModule } from '@angular/router'; 
@@ -11,34 +11,53 @@ import { RouterModule } from '@angular/router';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent {
-
-  goToDatenschutzerklaerung() {
-    window.open('https://jean-pondy.com/privacypolicy/', '_blank'); // '_blank' korrekt schreiben
-  }
-
+export class ContactComponent implements AfterViewInit {
+  private el = inject(ElementRef);
   http = inject(HttpClient);
 
   contactData = {
     name: '',
     email: '',
     message: '',
-    privacyPolicy: false, // Verwende boolean für die Datenschutzerklärung
+    privacyPolicy: false, // Datenschutzerklärung akzeptieren
   };
 
   mailTest = false;
-  feedbackMessage: string | null = null; // Für das Feedback-Overlay
+  feedbackMessage: string | null = null; // Feedback-Overlay
 
   post = {
     endPoint: 'https://jean-pondy.com/jeanpondy/sendMail.php',
     body: (payload: { name: string; email: string; message: string; privacyPolicy: boolean }) => JSON.stringify(payload),
     options: {
       headers: {
-        'Content-Type': 'application/json', // Korrigierter Content-Type für JSON-Daten
+        'Content-Type': 'application/json', // JSON-Daten im Header
       },
-      responseType: 'text' as const // Setze den Response-Typ hier, nicht in den Headern
+      responseType: 'text' as const // Response-Typ setzen
     },
   };
+
+  ngAfterViewInit() {
+    // Intersection Observer für Scroll-Effekte
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+        } else {
+          entry.target.classList.remove("is-visible");
+        }
+      });
+    });
+
+    // Überwachen des Elements mit der ID #contact
+    const contactSection = this.el.nativeElement.querySelector("#contact");
+    if (contactSection) {
+      observer.observe(contactSection);
+    }
+  }
+
+  goToDatenschutzerklaerung() {
+    window.open('https://jean-pondy.com/privacypolicy/', '_blank'); // Neuer Tab für Datenschutzerklärung
+  }
 
   onSubmit(ngForm: NgForm) {
     // Überprüfen, ob die Datenschutzerklärung akzeptiert wurde
@@ -47,11 +66,11 @@ export class ContactComponent {
       return;
     }
 
-    // Formular gesendet und validiert
+    // Formular senden und validieren
     if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData), this.post.options)
         .subscribe({
-          next: (response) => {
+          next: () => {
             this.feedbackMessage = "Your message has been sent successfully!";
             ngForm.resetForm();
           },
@@ -67,20 +86,19 @@ export class ContactComponent {
     }
   }
 
-  // Methode zum Schließen des Overlays
+  // Overlay schließen
   closeFeedback() {
-    this.feedbackMessage = null; // Setze das Feedback zurück, um das Overlay zu schließen
+    this.feedbackMessage = null;
   }
 
-  activeSection: string = ''; // Variable, um den aktiven Abschnitt zu verfolgen
+  activeSection: string = ''; // Aktiven Abschnitt verfolgen
 
-  // Methode, um zu einem bestimmten Abschnitt zu scrollen und dabei 80px Offset oben zu lassen
+  // Zu einem bestimmten Abschnitt scrollen
   scrollToSection(section: string) {
-    this.activeSection = section;  // Setze den aktiven Abschnitt
-    
+    this.activeSection = section;
     const element = document.getElementById(section);
     if (element) {
-      const yOffset = 0; // 80px Abstand vom oberen Rand
+      const yOffset = -80; // Offset für den oberen Rand
       const yPosition = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
       window.scrollTo({

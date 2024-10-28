@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component , ElementRef, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
@@ -10,7 +10,31 @@ import {MatIconModule} from '@angular/material/icon';
   templateUrl: './team-feedback.component.html',
   styleUrl: './team-feedback.component.scss'
 })
-export class TeamFeedbackComponent {
+export class TeamFeedbackComponent  implements AfterViewInit {
+
+  constructor(private el: ElementRef) {}
+
+  ngAfterViewInit() {
+    // Intersection Observer für Scroll-Effekte
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+        } else {
+          entry.target.classList.remove("is-visible");
+        }
+      });
+    });
+
+    // Überwachen des Elements mit der ID #about-me
+    const aboutMeSection = this.el.nativeElement.querySelector("#team-feedback");
+    if (aboutMeSection) {
+      observer.observe(aboutMeSection);
+    }
+  }
+
+
+
   currentIndex: number = 0;
   
   // Array mit Nachrichten und Bildern

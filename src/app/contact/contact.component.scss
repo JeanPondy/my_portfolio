@@ -6,6 +6,19 @@
   display: flex;
   flex-direction: column;
   //border: 2px solid rgba(255, 255, 255, 1);
+
+  opacity: 0;
+  transform: translateY(120px);
+  transition: transform 3.6s ease-out, opacity 3.6s ease-out;
+
+ 
+
+  // Klasse für sichtbare Elemente
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+
+  }
    
   
    

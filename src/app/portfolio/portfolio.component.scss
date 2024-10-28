@@ -10,6 +10,19 @@
   color: rgba(255, 255, 255, 1);
   //border: 2px solid rgba(255, 255, 255, 1);
   //display: none;
+
+  opacity: 0;
+  transform: translateY(120px);
+  transition: transform 2.6s ease-out, opacity 2.6s ease-out;
+
+ 
+
+  // Klasse für sichtbare Elemente
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+
+  }
    
   
    

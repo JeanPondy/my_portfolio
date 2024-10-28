@@ -13,6 +13,19 @@
          height: 340px;
    
      }
+
+     transform: perspective(800px) rotateX(45deg);
+     opacity: 0;
+     transition: transform 3.6s ease-out, opacity 6.6s ease-out;
+     transform-origin: top;
+ 
+     &.is-visible {
+     transform: perspective(400px) rotateX(0);
+     opacity: 1;
+    
+  }
+
+ 
  
      .dabubble-info{
  

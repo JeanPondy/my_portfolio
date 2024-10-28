@@ -12,6 +12,29 @@
     //border: 2px solid rgba(255, 255, 255, 1);
     //display: none;
 
+   /*  opacity: 0;
+    transform: scale(0.8) rotate(-10deg);
+    transition: opacity 3.6s ease, transform 3.6s ease;
+
+    &.is-visible {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    } */
+
+    opacity: 0;
+  transform: translateX(-400px);
+  transition: opacity 7.5s ease-out, transform 6.5s ease-out;
+
+  &.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+
+
+
+
+
     .capo{
         position: absolute;
         width: 96.9px;
@@ -1116,6 +1139,15 @@
         top: 5537.72;
         top: 5916px;
         left: 10px;
+
+        opacity: 0;
+        transform: translateX(-200px);
+        transition: opacity 7.5s ease-out, transform 6.5s ease-out;
+      
+        &.is-visible {
+          opacity: 1;
+          transform: translateX(0);
+        }
     
 
         .capo{
