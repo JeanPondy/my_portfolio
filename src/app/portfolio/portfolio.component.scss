@@ -83,7 +83,7 @@
     .message{
         width: 733px;
         height: 19px;
-        margin: 168px 0 0 217px;
+        margin: 168px 0 0 244px;
         font-family: Poppins;
         font-size: 16px;
         font-weight: 400;
@@ -123,10 +123,10 @@
       }
 
       }
-       
-
-        
-
+      
+    }
+    .message{
+      margin-left: 164px;
     }
        
 
@@ -180,9 +180,9 @@
           
 
         }
-        
-    
-
+      }
+      .message{
+        margin-left: 0px;
       }
 
   }
@@ -234,10 +234,13 @@
           
 
         }
-        
-    
-
       }
+      .message{
+        width: 740px;
+        height: 40px;
+        margin-left: 0px;
+        text-align: center;
+    }
 
   }
 }
@@ -295,8 +298,11 @@
       
       }
       .message{
-        width: 633px;
-        margin-left: 144px;
+        width: 740px;
+        height: 40px;
+        
+        margin-left: 0px;
+        text-align: center;
     }
 
   }
@@ -356,9 +362,10 @@
       
       }
       .message{
-        width: 633px;
-        margin-left: 144px;
-        margin-top: 120px;
+        width: 740px;
+        height: 40px;
+        margin: 168px 0 0 0px;
+        text-align: center;
     }
 
   }
@@ -420,9 +427,9 @@
     
     }
     .message{
-      width: 633px;
-      margin-left: 144px;
-      margin-top: 120px;
+      width: 730px;
+      margin: 120px 0 0 0px;
+    
   }
 
 }
@@ -483,9 +490,10 @@
       
       }
       .message{
-        width: 593px;
-        margin-left: 96px;
-        margin-left: -0px;
+        width: 600px;
+     
+        margin: 120px 0 0 16px;
+      
     }
 
   }

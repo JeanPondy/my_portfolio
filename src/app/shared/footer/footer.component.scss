@@ -128,8 +128,8 @@
    }
   
 
-}
-.legal2{
+ }
+ .legal2{
     width: 98px;
     height: 32px;
     //margin-top: 45px;
@@ -163,11 +163,14 @@
    
             }
 
+         
+
     }
 
    
 
-}
+ }
+
 
 
 }
@@ -233,9 +236,11 @@
 @media (max-width: 799px) {
     .footer{
         width: 98.9%;
+        //height: 380px;
         flex-direction: column;
         top: 7772px;
         top: 7862px;
+        //border: 2px solid yellowgreen;
       
 
         .legal{
@@ -248,7 +253,7 @@
           
         }
         .copyR-name{
-            margin-top: 40px;
+            margin-top: 0px;
         }
         .git-mail-in{
             margin-top: 8px;

@@ -40,7 +40,7 @@
     } */
     transform: perspective(800px) rotateX(45deg);
     opacity: 0;
-    transition: transform 3.6s ease-out, opacity 6.6s ease-out;
+    transition: transform 2.5s ease-out, opacity 2.5s ease-out;
     transform-origin: top;
 
     &.is-visible {
@@ -56,7 +56,7 @@
         //gap: 35px;
         display: flex;
         flex-direction: column;
-        margin-top: 70px;
+        margin-top: 56px;
         align-items: flex-end;
 
         h3{
@@ -84,13 +84,14 @@
 
         p{
             width: 513px;
-            height: 97px;
+            height: 112px;
             font-family: Poppins;
             font-weight: 400;
             font-size: 16px;
             line-height: 19.2px;
             color: rgba(255, 255, 255, 1);
             text-align: right;
+            //border: 2px solid rgba(255, 255, 255, 1);
         } 
 
         .buttons{
@@ -172,7 +173,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 50px;
+            margin-top: 24px;
             align-items: flex-end;
            
     
@@ -201,7 +202,8 @@
     
             p{
                 width: 400px; 
-                margin-bottom: 32px;
+                height: 140px;
+                margin-bottom: 16px;
                
             } 
         }
@@ -230,7 +232,6 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 50px;
             align-items: flex-end;
            
     
@@ -259,7 +260,7 @@
     
             p{
                 width: 400px; 
-                margin-bottom: 32px;
+                margin-bottom: 16px;
                
             } 
         }
@@ -290,7 +291,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 50px;
+         
             align-items: flex-end;
            
     
@@ -319,7 +320,7 @@
     
             p{
                 width: 380px; 
-                margin-bottom: 32px;
+                margin-bottom: 16px;
                
             } 
         }
@@ -406,6 +407,7 @@
                 //border: 2px solid rgba(255, 255, 255, 1);
                 width: 350px; 
                 height: 124px;  
+                height: 156px;
                 margin-top: -24px;
                 margin-bottom: 0px;
             } 
@@ -417,7 +419,7 @@
                 //align-items: center;
                 justify-content: flex-start; 
                 //border: 2px solid rgb(13, 194, 222);
-                margin-top: 32px;
+                margin-top: 24px;
 
     
                 .btn-talk1{
@@ -542,7 +544,7 @@
             } 
             .buttons{
                
-                margin-top: 12px;
+                margin-top: 0px;
             }
         }
         }
@@ -630,7 +632,7 @@
             } 
             .buttons{
                
-                margin-top: 12px;
+                margin-top: 0px;
             }
         }
         }
@@ -723,7 +725,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 32px;
+                margin-top: 24px;
             }
         }
         }
@@ -819,6 +821,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 20px;
+          
             }
         }
         }
@@ -855,8 +859,8 @@
            
             align-items: center;
             justify-content: center;
-            margin-top: -148px;
-            margin-top: -100px;
+        
+            margin-top: -120px;
            
     
             h3{
@@ -948,7 +952,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: -82px;
+            margin-top: -104px;
          
     
             h3{
@@ -987,7 +991,7 @@
     
             p{
                 width: 300px; 
-                height: 140px;
+                height: 172px;
                 display: flex;
                 align-items: center;
                 text-align:center;

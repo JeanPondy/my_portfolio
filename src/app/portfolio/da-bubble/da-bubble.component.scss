@@ -4,7 +4,7 @@
      height: 340px;
      gap: 35px;
      display: flex;
-     //border: 2px solid rgb(22, 81, 218);
+    
      //border: 2px solid rgb(243, 9, 9);
      
  
@@ -143,14 +143,19 @@
      
              h3{
                 width: 196px;
+                margin-top: -16px;
             }
             h4{
-                width: 308px;
+                width: 370px;
+              
+                margin-top: -16px;
 
             }
             p{
                width: 370px;
-               margin-bottom: 32px;
+               height: 96px;
+               margin-bottom: 16px;
+             
             }
             }
         }
@@ -182,12 +187,12 @@
                 width: 196px;
             }
             h4{
-                width: 308px;
+                width: 370px;
 
             }
             p{
                width: 370px;
-               margin-bottom: 32px;
+               margin-bottom: 16px;
             }
             }
         }
@@ -220,12 +225,12 @@
                 width: 196px;
             }
             h4{
-                width: 308px;
+                width: 370px;
 
             }
             p{
                width: 370px;
-               margin-bottom: 32px;
+               margin-bottom: 16px;
             }
             }
         }
@@ -273,7 +278,7 @@
                
             }
             h4{
-                width: 308px;
+                width: 350px;
                 margin-bottom: 0px;
                 display: flex;
                 align-items: center;
@@ -395,7 +400,7 @@
                
             }
             h4{
-                width: 308px;
+                width: 370px;
                 margin-bottom: 56px;
                 display: flex;
                 align-items: center;
@@ -466,7 +471,7 @@
                
             }
             h4{
-                width: 308px;
+                width: 370px;
                 margin-bottom: 56px;
                 display: flex;
                 align-items: center;
@@ -534,7 +539,7 @@
                
             }
             h4{
-                width: 308px;
+                width: 360px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -614,10 +619,13 @@
                
             }
             h4{
-                width: 308px;
+                width: 290px;
+                height: 60px;
+              
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                text-align: center;
 
             }
             p{
