@@ -8,8 +8,8 @@
       alt=""
     />
 
-    <div (click)="goToImprint()" class="legal line">
-      <p>Imprint</p>
+    <div class="legal line">
+      <a routerLink="/imprint">Imprint</a>
       <div class="line"></div>
     </div>
   </div>
@@ -38,9 +38,11 @@
       alt=""
     />
   </div>
-  <div (click)="goToImprint()" class="legal2 line">
+
+  <div class="legal2 line">
     <div class="line">
-      <p class="imprint">Imprint</p>
+      <a routerLink="/imprint">Imprint</a>
+      <!--     <p class="imprint">Imprint</p> -->
     </div>
   </div>
 </div>

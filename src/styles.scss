@@ -109,7 +109,7 @@ body {
   background-image: url('./../public/assets/img/shapeheropage.png');
   background-repeat: no-repeat;
   background-position: left 0px top 370.6px;
-  background-size: 1920px 1071px;
+  background-size: 100vw 1071px;
   z-index: -1;
 }
 
@@ -202,8 +202,8 @@ body {
     height: 100vh;
     background-image: url('./../public/assets/img/shapeheropage.png');
     background-repeat: no-repeat;
-    background-position: left 159.5px top 364.6px;
-    background-size: 1520px 1071px;
+    background-position: left 0px top 364.6px;
+    background-size: cover 1071px;
     z-index: -1;
   }
 }
@@ -236,9 +236,9 @@ body {
     height: 100vh;
     background-image: url('./../public/assets/img/shapeheropage.png');
     background-repeat: no-repeat;
-    background-position: left 159.5px top 379.6px;
-    background-position: left 0px top 379.6px;
-    background-size: 1480px 971.56px;
+  
+    background-position: left 0px top 340.6px;
+    background-size: cover 971.56px;
     z-index: -1;
   }
   .photo-profile-bg{

@@ -81,12 +81,10 @@
             />
             <label for="privacyPolicy" class="privacy-policy-text">
               I've read the
-              <a
-                (click)="goToDatenschutzerklaerung()"
-                class="privacy-policy-link"
-              >
+              <a routerLink="/datenschutz" class="privacy-policy-link">
                 privacy policy
               </a>
+
               and agree to the processing of my data as outlined.
             </label>
             <!-- Error message for privacy policy not accepted -->
